@@ -1,0 +1,21 @@
+model = Sequential([
+    Conv2D(32, kernel_size=3, activation='relu', input_shape=(28, 28, 1)),
+    BatchNormalization(),
+    Conv2D(32, kernel_size=3, activation='relu'),
+    BatchNormalization(),
+    Conv2D(32, kernel_size=5, strides=2, padding='same', activation='relu'),
+    BatchNormalization(),
+    Dropout(0.4),
+    Conv2D(64, kernel_size=3, activation='relu'),
+    BatchNormalization(),
+    Conv2D(64, kernel_size=3, activation='relu'),
+    BatchNormalization(),
+    Conv2D(64, kernel_size=5, strides=2, padding='same', activation='relu'),
+    BatchNormalization(),
+    Dropout(0.4),
+    Flatten(),
+    Dense(128, activation='relu'),
+    BatchNormalization(),
+    Dropout(0.4),
+    Dense(10, activation='softmax')
+])

@@ -1,0 +1,9 @@
+model = Sequential([
+    Conv2D(16, 8, strides=2, padding='same', activation='relu', input_shape=(28, 28, 1)),
+    MaxPool2D(2, 1),
+    Conv2D(32, 4, strides=2, padding='valid', activation='relu'),
+    MaxPool2D(2, 1),
+    Flatten(),
+    Dense(32, activation='relu'),
+    Dense(10)
+])

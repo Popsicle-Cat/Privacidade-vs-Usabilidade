@@ -1,0 +1,2197 @@
+Resultados dos testes de modelos DP e não DP
+Todos os testes foram executados com: delta = {delta} e epochs = {epochs}
+
+DP: False | LR: 0.01 | Batch: 25 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: None
+Acurácia: 0.9949 | Precisão: 0.9949 | Recall: 0.9949 | F1: 0.9949 
+Tempo de Treinamento: 861.63 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9368 | Precisão: 0.9375 | Recall: 0.9368 | F1: 0.9366 
+Tempo de Treinamento: 3881.61 seg
+Privacidade: DP-SGD performed over 60000 examples with 25 examples per iteration, noise
+multiplier 0.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       342.861
+    Epsilon assuming Poisson sampling (*):                    143.297
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.01 | Batch: 25 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: None
+Acurácia: 0.9951 | Precisão: 0.9951 | Recall: 0.9951 | F1: 0.9951 
+Tempo de Treinamento: 856.71 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.5203 | Precisão: 0.5589 | Recall: 0.5203 | F1: 0.5076 
+Tempo de Treinamento: 3902.54 seg
+Privacidade: DP-SGD performed over 60000 examples with 25 examples per iteration, noise
+multiplier 1.0 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       110.688
+    Epsilon assuming Poisson sampling (*):                      6.144
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.01 | Batch: 25 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: None
+Acurácia: 0.9957 | Precisão: 0.9957 | Recall: 0.9957 | F1: 0.9957 
+Tempo de Treinamento: 861.57 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.3194 | Precisão: 0.3307 | Recall: 0.3194 | F1: 0.3099 
+Tempo de Treinamento: 3900.09 seg
+Privacidade: DP-SGD performed over 60000 examples with 25 examples per iteration, noise
+multiplier 1.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:        60.091
+    Epsilon assuming Poisson sampling (*):                      1.511
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.01 | Batch: 25 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: None
+Acurácia: 0.9947 | Precisão: 0.9947 | Recall: 0.9947 | F1: 0.9947 
+Tempo de Treinamento: 862.13 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9184 | Precisão: 0.9201 | Recall: 0.9184 | F1: 0.9181 
+Tempo de Treinamento: 3907.84 seg
+Privacidade: DP-SGD performed over 60000 examples with 25 examples per iteration, noise
+multiplier 0.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       342.861
+    Epsilon assuming Poisson sampling (*):                    143.297
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.01 | Batch: 25 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: None
+Acurácia: 0.9960 | Precisão: 0.9960 | Recall: 0.9960 | F1: 0.9960 
+Tempo de Treinamento: 891.06 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.3525 | Precisão: 0.3993 | Recall: 0.3525 | F1: 0.2978 
+Tempo de Treinamento: 3921.20 seg
+Privacidade: DP-SGD performed over 60000 examples with 25 examples per iteration, noise
+multiplier 1.0 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       110.688
+    Epsilon assuming Poisson sampling (*):                      6.144
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.01 | Batch: 25 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: None
+Acurácia: 0.9954 | Precisão: 0.9954 | Recall: 0.9954 | F1: 0.9954 
+Tempo de Treinamento: 871.29 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.2073 | Precisão: 0.2311 | Recall: 0.2073 | F1: 0.1509 
+Tempo de Treinamento: 3921.32 seg
+Privacidade: DP-SGD performed over 60000 examples with 25 examples per iteration, noise
+multiplier 1.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:        60.091
+    Epsilon assuming Poisson sampling (*):                      1.511
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.01 | Batch: 25 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: None
+Acurácia: 0.9951 | Precisão: 0.9951 | Recall: 0.9951 | F1: 0.9951 
+Tempo de Treinamento: 869.37 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9141 | Precisão: 0.9149 | Recall: 0.9141 | F1: 0.9136 
+Tempo de Treinamento: 3877.83 seg
+Privacidade: DP-SGD performed over 60000 examples with 25 examples per iteration, noise
+multiplier 0.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       342.861
+    Epsilon assuming Poisson sampling (*):                    143.297
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.01 | Batch: 25 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: None
+Acurácia: 0.9951 | Precisão: 0.9951 | Recall: 0.9951 | F1: 0.9951 
+Tempo de Treinamento: 851.38 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.5728 | Precisão: 0.6545 | Recall: 0.5728 | F1: 0.5525 
+Tempo de Treinamento: 3883.39 seg
+Privacidade: DP-SGD performed over 60000 examples with 25 examples per iteration, noise
+multiplier 1.0 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       110.688
+    Epsilon assuming Poisson sampling (*):                      6.144
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.01 | Batch: 25 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: None
+Acurácia: 0.9952 | Precisão: 0.9952 | Recall: 0.9952 | F1: 0.9952 
+Tempo de Treinamento: 866.86 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.1599 | Precisão: 0.1918 | Recall: 0.1599 | F1: 0.0976 
+Tempo de Treinamento: 3906.47 seg
+Privacidade: DP-SGD performed over 60000 examples with 25 examples per iteration, noise
+multiplier 1.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:        60.091
+    Epsilon assuming Poisson sampling (*):                      1.511
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.01 | Batch: 50 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: None
+Acurácia: 0.9960 | Precisão: 0.9960 | Recall: 0.9960 | F1: 0.9960 
+Tempo de Treinamento: 862.56 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9442 | Precisão: 0.9443 | Recall: 0.9442 | F1: 0.9440 
+Tempo de Treinamento: 3643.95 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 0.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       342.861
+    Epsilon assuming Poisson sampling (*):                    167.930
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.9543 | Precisão: 0.9545 | Recall: 0.9543 | F1: 0.9543 
+Tempo de Treinamento: 6785.36 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 0.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       342.861
+    Epsilon assuming Poisson sampling (*):                    167.930
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.01 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: None
+Acurácia: 0.9951 | Precisão: 0.9951 | Recall: 0.9951 | F1: 0.9951 
+Tempo de Treinamento: 855.21 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.6363 | Precisão: 0.6830 | Recall: 0.6363 | F1: 0.6324 
+Tempo de Treinamento: 3640.39 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 1.0 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       110.688
+    Epsilon assuming Poisson sampling (*):                      8.181
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.8720 | Precisão: 0.8806 | Recall: 0.8720 | F1: 0.8724 
+Tempo de Treinamento: 6782.66 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 1.0 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       110.688
+    Epsilon assuming Poisson sampling (*):                      8.181
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.01 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: None
+Acurácia: 0.9958 | Precisão: 0.9958 | Recall: 0.9958 | F1: 0.9958 
+Tempo de Treinamento: 852.79 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.2988 | Precisão: 0.2872 | Recall: 0.2988 | F1: 0.2598 
+Tempo de Treinamento: 3650.44 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 1.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:        60.091
+    Epsilon assuming Poisson sampling (*):                      1.932
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.6784 | Precisão: 0.6898 | Recall: 0.6784 | F1: 0.6645 
+Tempo de Treinamento: 6941.49 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 1.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:        60.091
+    Epsilon assuming Poisson sampling (*):                      1.932
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.01 | Batch: 50 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: None
+Acurácia: 0.9955 | Precisão: 0.9955 | Recall: 0.9955 | F1: 0.9955 
+Tempo de Treinamento: 1003.28 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9332 | Precisão: 0.9334 | Recall: 0.9332 | F1: 0.9329 
+Tempo de Treinamento: 4089.86 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 0.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       342.861
+    Epsilon assuming Poisson sampling (*):                    167.930
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.9586 | Precisão: 0.9589 | Recall: 0.9586 | F1: 0.9586 
+Tempo de Treinamento: 7257.87 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 0.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       342.861
+    Epsilon assuming Poisson sampling (*):                    167.930
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.01 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: None
+Acurácia: 0.9953 | Precisão: 0.9953 | Recall: 0.9953 | F1: 0.9953 
+Tempo de Treinamento: 855.40 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.6674 | Precisão: 0.6808 | Recall: 0.6674 | F1: 0.6533 
+Tempo de Treinamento: 3660.95 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 1.0 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       110.688
+    Epsilon assuming Poisson sampling (*):                      8.181
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.8482 | Precisão: 0.8600 | Recall: 0.8482 | F1: 0.8464 
+Tempo de Treinamento: 6842.09 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 1.0 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       110.688
+    Epsilon assuming Poisson sampling (*):                      8.181
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.01 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: None
+Acurácia: 0.9942 | Precisão: 0.9942 | Recall: 0.9942 | F1: 0.9942 
+Tempo de Treinamento: 862.93 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.2893 | Precisão: 0.2926 | Recall: 0.2893 | F1: 0.2552 
+Tempo de Treinamento: 3658.47 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 1.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:        60.091
+    Epsilon assuming Poisson sampling (*):                      1.932
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.4604 | Precisão: 0.4849 | Recall: 0.4604 | F1: 0.4440 
+Tempo de Treinamento: 6844.94 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 1.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:        60.091
+    Epsilon assuming Poisson sampling (*):                      1.932
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.01 | Batch: 50 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: None
+Acurácia: 0.9954 | Precisão: 0.9954 | Recall: 0.9954 | F1: 0.9954 
+Tempo de Treinamento: 853.76 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9273 | Precisão: 0.9282 | Recall: 0.9273 | F1: 0.9269 
+Tempo de Treinamento: 3664.31 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 0.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       342.861
+    Epsilon assuming Poisson sampling (*):                    167.930
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.9510 | Precisão: 0.9528 | Recall: 0.9510 | F1: 0.9511 
+Tempo de Treinamento: 6846.64 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 0.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       342.861
+    Epsilon assuming Poisson sampling (*):                    167.930
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.01 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: None
+Acurácia: 0.9945 | Precisão: 0.9945 | Recall: 0.9945 | F1: 0.9945 
+Tempo de Treinamento: 854.25 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.5215 | Precisão: 0.6793 | Recall: 0.5215 | F1: 0.5360 
+Tempo de Treinamento: 3670.40 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 1.0 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       110.688
+    Epsilon assuming Poisson sampling (*):                      8.181
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.8569 | Precisão: 0.8641 | Recall: 0.8569 | F1: 0.8549 
+Tempo de Treinamento: 6828.72 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 1.0 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       110.688
+    Epsilon assuming Poisson sampling (*):                      8.181
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.01 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: None
+Acurácia: 0.9958 | Precisão: 0.9958 | Recall: 0.9958 | F1: 0.9958 
+Tempo de Treinamento: 860.82 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.1719 | Precisão: 0.1908 | Recall: 0.1719 | F1: 0.1205 
+Tempo de Treinamento: 3655.71 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 1.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:        60.091
+    Epsilon assuming Poisson sampling (*):                      1.932
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.6289 | Precisão: 0.6741 | Recall: 0.6289 | F1: 0.6205 
+Tempo de Treinamento: 6847.93 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 1.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:        60.091
+    Epsilon assuming Poisson sampling (*):                      1.932
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.01 | Batch: 100 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: None
+Acurácia: 0.9958 | Precisão: 0.9958 | Recall: 0.9958 | F1: 0.9958 
+Tempo de Treinamento: 856.49 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9300 | Precisão: 0.9309 | Recall: 0.9300 | F1: 0.9299 
+Tempo de Treinamento: 3641.85 seg
+Privacidade: DP-SGD performed over 60000 examples with 100 examples per iteration, noise
+multiplier 0.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       342.861
+    Epsilon assuming Poisson sampling (*):                    197.798
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.9544 | Precisão: 0.9546 | Recall: 0.9544 | F1: 0.9543 
+Tempo de Treinamento: 6702.43 seg
+Privacidade: DP-SGD performed over 60000 examples with 100 examples per iteration, noise
+multiplier 0.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       342.861
+    Epsilon assuming Poisson sampling (*):                    197.798
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.01 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: None
+Acurácia: 0.9948 | Precisão: 0.9948 | Recall: 0.9948 | F1: 0.9948 
+Tempo de Treinamento: 853.52 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.6777 | Precisão: 0.6956 | Recall: 0.6777 | F1: 0.6590 
+Tempo de Treinamento: 3643.56 seg
+Privacidade: DP-SGD performed over 60000 examples with 100 examples per iteration, noise
+multiplier 1.0 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       110.688
+    Epsilon assuming Poisson sampling (*):                     11.105
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.8853 | Precisão: 0.8911 | Recall: 0.8853 | F1: 0.8849 
+Tempo de Treinamento: 7282.84 seg
+Privacidade: DP-SGD performed over 60000 examples with 100 examples per iteration, noise
+multiplier 1.0 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       110.688
+    Epsilon assuming Poisson sampling (*):                     11.105
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.01 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: None
+Acurácia: 0.9951 | Precisão: 0.9951 | Recall: 0.9951 | F1: 0.9951 
+Tempo de Treinamento: 858.42 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.2898 | Precisão: 0.3439 | Recall: 0.2898 | F1: 0.2575 
+Tempo de Treinamento: 3654.20 seg
+Privacidade: DP-SGD performed over 60000 examples with 100 examples per iteration, noise
+multiplier 1.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:        60.091
+    Epsilon assuming Poisson sampling (*):                      2.618
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.7527 | Precisão: 0.7790 | Recall: 0.7527 | F1: 0.7470 
+Tempo de Treinamento: 6726.45 seg
+Privacidade: DP-SGD performed over 60000 examples with 100 examples per iteration, noise
+multiplier 1.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:        60.091
+    Epsilon assuming Poisson sampling (*):                      2.618
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.01 | Batch: 100 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: None
+Acurácia: 0.9950 | Precisão: 0.9950 | Recall: 0.9950 | F1: 0.9950 
+Tempo de Treinamento: 859.79 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9398 | Precisão: 0.9412 | Recall: 0.9398 | F1: 0.9397 
+Tempo de Treinamento: 3651.11 seg
+Privacidade: DP-SGD performed over 60000 examples with 100 examples per iteration, noise
+multiplier 0.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       342.861
+    Epsilon assuming Poisson sampling (*):                    197.798
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.9561 | Precisão: 0.9565 | Recall: 0.9561 | F1: 0.9560 
+Tempo de Treinamento: 6737.70 seg
+Privacidade: DP-SGD performed over 60000 examples with 100 examples per iteration, noise
+multiplier 0.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       342.861
+    Epsilon assuming Poisson sampling (*):                    197.798
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.01 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: None
+Acurácia: 0.9955 | Precisão: 0.9955 | Recall: 0.9955 | F1: 0.9955 
+Tempo de Treinamento: 863.95 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.6453 | Precisão: 0.6880 | Recall: 0.6453 | F1: 0.6374 
+Tempo de Treinamento: 3648.94 seg
+Privacidade: DP-SGD performed over 60000 examples with 100 examples per iteration, noise
+multiplier 1.0 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       110.688
+    Epsilon assuming Poisson sampling (*):                     11.105
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.9053 | Precisão: 0.9065 | Recall: 0.9053 | F1: 0.9047 
+Tempo de Treinamento: 6713.40 seg
+Privacidade: DP-SGD performed over 60000 examples with 100 examples per iteration, noise
+multiplier 1.0 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       110.688
+    Epsilon assuming Poisson sampling (*):                     11.105
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.01 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: None
+Acurácia: 0.9950 | Precisão: 0.9950 | Recall: 0.9950 | F1: 0.9950 
+Tempo de Treinamento: 860.36 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.3870 | Precisão: 0.4040 | Recall: 0.3870 | F1: 0.3427 
+Tempo de Treinamento: 3653.94 seg
+Privacidade: DP-SGD performed over 60000 examples with 100 examples per iteration, noise
+multiplier 1.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:        60.091
+    Epsilon assuming Poisson sampling (*):                      2.618
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.6450 | Precisão: 0.6505 | Recall: 0.6450 | F1: 0.6363 
+Tempo de Treinamento: 6716.49 seg
+Privacidade: DP-SGD performed over 60000 examples with 100 examples per iteration, noise
+multiplier 1.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:        60.091
+    Epsilon assuming Poisson sampling (*):                      2.618
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.01 | Batch: 100 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: None
+Acurácia: 0.9951 | Precisão: 0.9951 | Recall: 0.9951 | F1: 0.9951 
+Tempo de Treinamento: 860.94 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9298 | Precisão: 0.9313 | Recall: 0.9298 | F1: 0.9297 
+Tempo de Treinamento: 3653.87 seg
+Privacidade: DP-SGD performed over 60000 examples with 100 examples per iteration, noise
+multiplier 0.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       342.861
+    Epsilon assuming Poisson sampling (*):                    197.798
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.9626 | Precisão: 0.9627 | Recall: 0.9626 | F1: 0.9625 
+Tempo de Treinamento: 6722.49 seg
+Privacidade: DP-SGD performed over 60000 examples with 100 examples per iteration, noise
+multiplier 0.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       342.861
+    Epsilon assuming Poisson sampling (*):                    197.798
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.01 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: None
+Acurácia: 0.9953 | Precisão: 0.9953 | Recall: 0.9953 | F1: 0.9953 
+Tempo de Treinamento: 869.60 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.6455 | Precisão: 0.6334 | Recall: 0.6455 | F1: 0.6182 
+Tempo de Treinamento: 3648.55 seg
+Privacidade: DP-SGD performed over 60000 examples with 100 examples per iteration, noise
+multiplier 1.0 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       110.688
+    Epsilon assuming Poisson sampling (*):                     11.105
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.8734 | Precisão: 0.8786 | Recall: 0.8734 | F1: 0.8738 
+Tempo de Treinamento: 6721.02 seg
+Privacidade: DP-SGD performed over 60000 examples with 100 examples per iteration, noise
+multiplier 1.0 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       110.688
+    Epsilon assuming Poisson sampling (*):                     11.105
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.01 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: None
+Acurácia: 0.9960 | Precisão: 0.9960 | Recall: 0.9960 | F1: 0.9960 
+Tempo de Treinamento: 875.11 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.2663 | Precisão: 0.3414 | Recall: 0.2663 | F1: 0.2248 
+Tempo de Treinamento: 3673.70 seg
+Privacidade: DP-SGD performed over 60000 examples with 100 examples per iteration, noise
+multiplier 1.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:        60.091
+    Epsilon assuming Poisson sampling (*):                      2.618
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.6304 | Precisão: 0.6618 | Recall: 0.6304 | F1: 0.6256 
+Tempo de Treinamento: 6744.53 seg
+Privacidade: DP-SGD performed over 60000 examples with 100 examples per iteration, noise
+multiplier 1.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:        60.091
+    Epsilon assuming Poisson sampling (*):                      2.618
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.005 | Batch: 25 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: None
+Acurácia: 0.9950 | Precisão: 0.9950 | Recall: 0.9950 | F1: 0.9950 
+Tempo de Treinamento: 881.64 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9334 | Precisão: 0.9348 | Recall: 0.9334 | F1: 0.9334 
+Tempo de Treinamento: 4218.51 seg
+Privacidade: DP-SGD performed over 60000 examples with 25 examples per iteration, noise
+multiplier 0.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       342.861
+    Epsilon assuming Poisson sampling (*):                    143.297
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.005 | Batch: 25 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: None
+Acurácia: 0.9949 | Precisão: 0.9949 | Recall: 0.9949 | F1: 0.9949 
+Tempo de Treinamento: 917.28 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.5699 | Precisão: 0.5942 | Recall: 0.5699 | F1: 0.5521 
+Tempo de Treinamento: 4178.44 seg
+Privacidade: DP-SGD performed over 60000 examples with 25 examples per iteration, noise
+multiplier 1.0 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       110.688
+    Epsilon assuming Poisson sampling (*):                      6.144
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.005 | Batch: 25 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: None
+Acurácia: 0.9953 | Precisão: 0.9953 | Recall: 0.9953 | F1: 0.9953 
+Tempo de Treinamento: 926.11 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.3652 | Precisão: 0.3959 | Recall: 0.3652 | F1: 0.3348 
+Tempo de Treinamento: 4083.19 seg
+Privacidade: DP-SGD performed over 60000 examples with 25 examples per iteration, noise
+multiplier 1.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:        60.091
+    Epsilon assuming Poisson sampling (*):                      1.511
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.005 | Batch: 25 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: None
+Acurácia: 0.9946 | Precisão: 0.9946 | Recall: 0.9946 | F1: 0.9946 
+Tempo de Treinamento: 881.67 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9218 | Precisão: 0.9234 | Recall: 0.9218 | F1: 0.9217 
+Tempo de Treinamento: 4034.37 seg
+Privacidade: DP-SGD performed over 60000 examples with 25 examples per iteration, noise
+multiplier 0.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       342.861
+    Epsilon assuming Poisson sampling (*):                    143.297
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.005 | Batch: 25 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: None
+Acurácia: 0.9951 | Precisão: 0.9951 | Recall: 0.9951 | F1: 0.9951 
+Tempo de Treinamento: 896.37 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.4456 | Precisão: 0.4649 | Recall: 0.4456 | F1: 0.3920 
+Tempo de Treinamento: 4015.27 seg
+Privacidade: DP-SGD performed over 60000 examples with 25 examples per iteration, noise
+multiplier 1.0 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       110.688
+    Epsilon assuming Poisson sampling (*):                      6.144
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.005 | Batch: 25 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: None
+Acurácia: 0.9956 | Precisão: 0.9956 | Recall: 0.9956 | F1: 0.9956 
+Tempo de Treinamento: 882.90 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.1968 | Precisão: 0.2152 | Recall: 0.1968 | F1: 0.1653 
+Tempo de Treinamento: 3996.16 seg
+Privacidade: DP-SGD performed over 60000 examples with 25 examples per iteration, noise
+multiplier 1.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:        60.091
+    Epsilon assuming Poisson sampling (*):                      1.511
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.005 | Batch: 25 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: None
+Acurácia: 0.9951 | Precisão: 0.9951 | Recall: 0.9951 | F1: 0.9951 
+Tempo de Treinamento: 882.89 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9350 | Precisão: 0.9352 | Recall: 0.9350 | F1: 0.9349 
+Tempo de Treinamento: 3965.63 seg
+Privacidade: DP-SGD performed over 60000 examples with 25 examples per iteration, noise
+multiplier 0.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       342.861
+    Epsilon assuming Poisson sampling (*):                    143.297
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.005 | Batch: 25 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: None
+Acurácia: 0.9950 | Precisão: 0.9950 | Recall: 0.9950 | F1: 0.9950 
+Tempo de Treinamento: 886.16 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.5885 | Precisão: 0.6207 | Recall: 0.5885 | F1: 0.5892 
+Tempo de Treinamento: 3988.85 seg
+Privacidade: DP-SGD performed over 60000 examples with 25 examples per iteration, noise
+multiplier 1.0 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       110.688
+    Epsilon assuming Poisson sampling (*):                      6.144
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.005 | Batch: 25 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: None
+Acurácia: 0.9954 | Precisão: 0.9954 | Recall: 0.9954 | F1: 0.9954 
+Tempo de Treinamento: 889.87 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.2868 | Precisão: 0.3184 | Recall: 0.2868 | F1: 0.2678 
+Tempo de Treinamento: 4010.79 seg
+Privacidade: DP-SGD performed over 60000 examples with 25 examples per iteration, noise
+multiplier 1.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:        60.091
+    Epsilon assuming Poisson sampling (*):                      1.511
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.005 | Batch: 50 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: None
+Acurácia: 0.9955 | Precisão: 0.9955 | Recall: 0.9955 | F1: 0.9955 
+Tempo de Treinamento: 895.25 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9305 | Precisão: 0.9310 | Recall: 0.9305 | F1: 0.9303 
+Tempo de Treinamento: 3749.06 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 0.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       342.861
+    Epsilon assuming Poisson sampling (*):                    167.930
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.9392 | Precisão: 0.9399 | Recall: 0.9392 | F1: 0.9391 
+Tempo de Treinamento: 6932.49 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 0.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       342.861
+    Epsilon assuming Poisson sampling (*):                    167.930
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.005 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: None
+Acurácia: 0.9960 | Precisão: 0.9960 | Recall: 0.9960 | F1: 0.9960 
+Tempo de Treinamento: 889.71 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.7105 | Precisão: 0.7381 | Recall: 0.7105 | F1: 0.7052 
+Tempo de Treinamento: 3755.87 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 1.0 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       110.688
+    Epsilon assuming Poisson sampling (*):                      8.181
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.8786 | Precisão: 0.8816 | Recall: 0.8786 | F1: 0.8771 
+Tempo de Treinamento: 6941.76 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 1.0 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       110.688
+    Epsilon assuming Poisson sampling (*):                      8.181
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.005 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: None
+Acurácia: 0.9958 | Precisão: 0.9958 | Recall: 0.9958 | F1: 0.9958 
+Tempo de Treinamento: 891.53 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.4095 | Precisão: 0.4165 | Recall: 0.4095 | F1: 0.3997 
+Tempo de Treinamento: 3793.29 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 1.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:        60.091
+    Epsilon assuming Poisson sampling (*):                      1.932
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.6414 | Precisão: 0.6760 | Recall: 0.6414 | F1: 0.6103 
+Tempo de Treinamento: 6973.64 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 1.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:        60.091
+    Epsilon assuming Poisson sampling (*):                      1.932
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.005 | Batch: 50 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: None
+Acurácia: 0.9952 | Precisão: 0.9952 | Recall: 0.9952 | F1: 0.9952 
+Tempo de Treinamento: 925.00 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9483 | Precisão: 0.9487 | Recall: 0.9483 | F1: 0.9483 
+Tempo de Treinamento: 3809.91 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 0.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       342.861
+    Epsilon assuming Poisson sampling (*):                    167.930
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.9573 | Precisão: 0.9579 | Recall: 0.9573 | F1: 0.9573 
+Tempo de Treinamento: 7373.35 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 0.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       342.861
+    Epsilon assuming Poisson sampling (*):                    167.930
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.005 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: None
+Acurácia: 0.9953 | Precisão: 0.9953 | Recall: 0.9953 | F1: 0.9953 
+Tempo de Treinamento: 1030.16 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.6552 | Precisão: 0.7087 | Recall: 0.6552 | F1: 0.6442 
+Tempo de Treinamento: 3889.33 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 1.0 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       110.688
+    Epsilon assuming Poisson sampling (*):                      8.181
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.8782 | Precisão: 0.8815 | Recall: 0.8782 | F1: 0.8775 
+Tempo de Treinamento: 6971.15 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 1.0 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       110.688
+    Epsilon assuming Poisson sampling (*):                      8.181
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.005 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: None
+Acurácia: 0.9946 | Precisão: 0.9946 | Recall: 0.9946 | F1: 0.9946 
+Tempo de Treinamento: 908.05 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.2899 | Precisão: 0.2912 | Recall: 0.2899 | F1: 0.2753 
+Tempo de Treinamento: 3751.02 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 1.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:        60.091
+    Epsilon assuming Poisson sampling (*):                      1.932
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.6742 | Precisão: 0.6926 | Recall: 0.6742 | F1: 0.6672 
+Tempo de Treinamento: 6971.54 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 1.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:        60.091
+    Epsilon assuming Poisson sampling (*):                      1.932
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.005 | Batch: 50 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: None
+Acurácia: 0.9948 | Precisão: 0.9948 | Recall: 0.9948 | F1: 0.9948 
+Tempo de Treinamento: 901.78 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9482 | Precisão: 0.9486 | Recall: 0.9482 | F1: 0.9481 
+Tempo de Treinamento: 3761.17 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 0.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       342.861
+    Epsilon assuming Poisson sampling (*):                    167.930
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.9626 | Precisão: 0.9627 | Recall: 0.9626 | F1: 0.9625 
+Tempo de Treinamento: 6969.12 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 0.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       342.861
+    Epsilon assuming Poisson sampling (*):                    167.930
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.005 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: None
+Acurácia: 0.9942 | Precisão: 0.9942 | Recall: 0.9942 | F1: 0.9942 
+Tempo de Treinamento: 900.21 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.6688 | Precisão: 0.6921 | Recall: 0.6688 | F1: 0.6495 
+Tempo de Treinamento: 3746.10 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 1.0 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       110.688
+    Epsilon assuming Poisson sampling (*):                      8.181
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.8803 | Precisão: 0.8858 | Recall: 0.8803 | F1: 0.8792 
+Tempo de Treinamento: 6973.45 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 1.0 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       110.688
+    Epsilon assuming Poisson sampling (*):                      8.181
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.005 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: None
+Acurácia: 0.9953 | Precisão: 0.9953 | Recall: 0.9953 | F1: 0.9953 
+Tempo de Treinamento: 900.73 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.3194 | Precisão: 0.3150 | Recall: 0.3194 | F1: 0.2888 
+Tempo de Treinamento: 3756.94 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 1.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:        60.091
+    Epsilon assuming Poisson sampling (*):                      1.932
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.5602 | Precisão: 0.6752 | Recall: 0.5602 | F1: 0.5653 
+Tempo de Treinamento: 7023.89 seg
+Privacidade: DP-SGD performed over 60000 examples with 50 examples per iteration, noise
+multiplier 1.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:        60.091
+    Epsilon assuming Poisson sampling (*):                      1.932
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.005 | Batch: 100 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: None
+Acurácia: 0.9954 | Precisão: 0.9954 | Recall: 0.9954 | F1: 0.9954 
+Tempo de Treinamento: 931.59 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9296 | Precisão: 0.9306 | Recall: 0.9296 | F1: 0.9295 
+Tempo de Treinamento: 3719.33 seg
+Privacidade: DP-SGD performed over 60000 examples with 100 examples per iteration, noise
+multiplier 0.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       342.861
+    Epsilon assuming Poisson sampling (*):                    197.798
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.9292 | Precisão: 0.9299 | Recall: 0.9292 | F1: 0.9289 
+Tempo de Treinamento: 6781.91 seg
+Privacidade: DP-SGD performed over 60000 examples with 100 examples per iteration, noise
+multiplier 0.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       342.861
+    Epsilon assuming Poisson sampling (*):                    197.798
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.005 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: None
+Acurácia: 0.9952 | Precisão: 0.9952 | Recall: 0.9952 | F1: 0.9952 
+Tempo de Treinamento: 914.71 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.7059 | Precisão: 0.7112 | Recall: 0.7059 | F1: 0.6947 
+Tempo de Treinamento: 3720.73 seg
+Privacidade: DP-SGD performed over 60000 examples with 100 examples per iteration, noise
+multiplier 1.0 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       110.688
+    Epsilon assuming Poisson sampling (*):                     11.105
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.8871 | Precisão: 0.8877 | Recall: 0.8871 | F1: 0.8866 
+Tempo de Treinamento: 6779.09 seg
+Privacidade: DP-SGD performed over 60000 examples with 100 examples per iteration, noise
+multiplier 1.0 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       110.688
+    Epsilon assuming Poisson sampling (*):                     11.105
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.005 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: None
+Acurácia: 0.9957 | Precisão: 0.9957 | Recall: 0.9957 | F1: 0.9957 
+Tempo de Treinamento: 924.91 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.5765 | Precisão: 0.6129 | Recall: 0.5765 | F1: 0.5687 
+Tempo de Treinamento: 3913.27 seg
+Privacidade: DP-SGD performed over 60000 examples with 100 examples per iteration, noise
+multiplier 1.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:        60.091
+    Epsilon assuming Poisson sampling (*):                      2.618
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.7017 | Precisão: 0.7426 | Recall: 0.7017 | F1: 0.6849 
+Tempo de Treinamento: 7047.48 seg
+Privacidade: DP-SGD performed over 60000 examples with 100 examples per iteration, noise
+multiplier 1.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:        60.091
+    Epsilon assuming Poisson sampling (*):                      2.618
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.005 | Batch: 100 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: None
+Acurácia: 0.9952 | Precisão: 0.9952 | Recall: 0.9952 | F1: 0.9952 
+Tempo de Treinamento: 926.52 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9302 | Precisão: 0.9312 | Recall: 0.9302 | F1: 0.9298 
+Tempo de Treinamento: 3729.93 seg
+Privacidade: DP-SGD performed over 60000 examples with 100 examples per iteration, noise
+multiplier 0.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       342.861
+    Epsilon assuming Poisson sampling (*):                    197.798
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.9457 | Precisão: 0.9471 | Recall: 0.9457 | F1: 0.9457 
+Tempo de Treinamento: 6795.89 seg
+Privacidade: DP-SGD performed over 60000 examples with 100 examples per iteration, noise
+multiplier 0.5 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       342.861
+    Epsilon assuming Poisson sampling (*):                    197.798
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
+DP: False | LR: 0.005 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: None
+Acurácia: 0.9951 | Precisão: 0.9951 | Recall: 0.9951 | F1: 0.9951 
+Tempo de Treinamento: 928.60 seg
+Privacidade: Sem privacidade diferencial
+
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.8051 | Precisão: 0.8105 | Recall: 0.8051 | F1: 0.8049 
+Tempo de Treinamento: 3731.44 seg
+Privacidade: DP-SGD performed over 60000 examples with 100 examples per iteration, noise
+multiplier 1.0 for 30 epochs with microbatching, and no bound on number of
+examples per user.
+
+This privacy guarantee protects the release of all model checkpoints in addition
+to the final model.
+
+Example-level DP with add-or-remove-one adjacency at delta = 1e-05 computed with
+RDP accounting:
+    Epsilon with each example occurring once per epoch:       110.688
+    Epsilon assuming Poisson sampling (*):                     11.105
+
+No user-level privacy guarantee is possible without a bound on the number of
+examples per user.
+
+(*) Poisson sampling is not usually done in training pipelines, but assuming
+that the data was randomly shuffled, it is believed that the actual epsilon
+should be closer to this value than the conservative assumption of an arbitrary
+data order.
+
+
