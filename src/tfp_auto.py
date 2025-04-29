@@ -19,6 +19,7 @@ train_labels = to_categorical(train_labels, num_classes=10)
 test_labels = to_categorical(test_labels, num_classes=10)
 
 # Definir hiperparâmetros para testar
+models = ['a', 'b']
 learning_rates = [0.01, 0.005, 0.001]
 batch_sizes = [25, 50, 100]
 l2_norm_clips = [0.5, 1.0, 1.5]
@@ -54,9 +55,49 @@ def poisson_batch_generator(data, labels, batch_size, steps_per_epoch):
         
         yield X_batch, y_batch
 
+# Criar arquiteturas
+def create_model_a():
+    model = Sequential([
+        Conv2D(16, 8, strides=2, padding='same', activation='relu', input_shape=(28, 28, 1)),
+        MaxPool2D(2, 1),
+        Conv2D(32, 4, strides=2, padding='valid', activation='relu'),
+        MaxPool2D(2, 1),
+        Flatten(),
+        Dense(32, activation='relu'),
+        Dense(10)
+    ])
+    return model
+
+def create_model_b():
+    model = Sequential([
+        Conv2D(32, 3, activation='relu', input_shape=(28, 28, 1)),
+        BatchNormalization(),
+        Conv2D(32, 3, activation='relu'),
+        BatchNormalization(),
+        Conv2D(32, 5, strides=2, padding='same', activation='relu'),
+        BatchNormalization(),
+        Dropout(0.4),
+
+        Conv2D(64, 3, activation='relu'),
+        BatchNormalization(),
+        Conv2D(64, 3, activation='relu'),
+        BatchNormalization(),
+        Conv2D(64, 5, strides=2, padding='same', activation='relu'),
+        BatchNormalization(),
+        Dropout(0.4),
+
+        Flatten(),
+        Dense(128, activation='relu'),
+        BatchNormalization(),
+        Dropout(0.4),
+        Dense(10, activation='softmax')
+    ])
+    return model
+
+test_number = 0
 # Gerar todas as combinações de hiperparâmetros
-for lr, batch_size, l2_norm_clip, noise_multiplier in itertools.product(
-    learning_rates, batch_sizes, l2_norm_clips, noise_multipliers):
+for model, lr, batch_size, l2_norm_clip, noise_multiplier in itertools.product(
+    models, learning_rates, batch_sizes, l2_norm_clips, noise_multipliers):
 
     for dp in [False, True]:  # Testar modelos com e sem DP
         for num_microbatches in (num_microbatches_options if dp else [None]):
@@ -65,40 +106,8 @@ for lr, batch_size, l2_norm_clip, noise_multiplier in itertools.product(
             if dp and batch_size % num_microbatches != 0:
                 continue  
 
-            # Criar modelo
-            model = Sequential([
-                Conv2D(16, 8, strides=2, padding='same', activation='relu', input_shape=(28, 28, 1)),
-                MaxPool2D(2, 1),
-                Conv2D(32, 4, strides=2, padding='valid', activation='relu'),
-                MaxPool2D(2, 1),
-                Flatten(),
-                Dense(32, activation='relu'),
-                Dense(10)
-            ])
-
-            # model = Sequential()
-
-            # model.add(Conv2D(32,kernel_size=3,activation='relu',input_shape=(28,28,1)))
-            # model.add(BatchNormalization())
-            # model.add(Conv2D(32,kernel_size=3,activation='relu'))
-            # model.add(BatchNormalization())
-            # model.add(Conv2D(32,kernel_size=5,strides=2,padding='same',activation='relu'))
-            # model.add(BatchNormalization())
-            # model.add(Dropout(0.4))
-
-            # model.add(Conv2D(64,kernel_size=3,activation='relu'))
-            # model.add(BatchNormalization())
-            # model.add(Conv2D(64,kernel_size=3,activation='relu'))
-            # model.add(BatchNormalization())
-            # model.add(Conv2D(64,kernel_size=5,strides=2,padding='same',activation='relu'))
-            # model.add(BatchNormalization())
-            # model.add(Dropout(0.4))
-
-            # model.add(Flatten())
-            # model.add(Dense(128, activation='relu'))
-            # model.add(BatchNormalization())
-            # model.add(Dropout(0.4))
-            # model.add(Dense(10, activation='softmax'))
+            # Inicializar o modelo
+            model = locals()[f"create_model_{model}"]()
 
             # Definir função de perda
             loss = tf.keras.losses.CategoricalCrossentropy(from_logits=True, reduction=tf.losses.Reduction.NONE if dp else tf.losses.Reduction.AUTO)
@@ -163,9 +172,13 @@ for lr, batch_size, l2_norm_clip, noise_multiplier in itertools.product(
                 privacy_statement = "Sem privacidade diferencial"
 
             with open(file_path, "a") as f:
+                f.write(f"---------------------------------------------------------------------------------------------------------------------------------- \n")
+                f.write(f"Teste {test_number}: \n\n")
                 f.write(f"DP: {dp} | LR: {lr} | Batch: {batch_size} | L2 Clip: {l2_norm_clip} | Noise: {noise_multiplier} | Microbatches: {num_microbatches}\n")
                 f.write(f"Acurácia: {accuracy:.4f} | Precisão: {precision:.4f} | Recall: {recall:.4f} | F1: {f1:.4f} \n")
                 f.write(f"Tempo de Treinamento: {end_time - start_time:.2f} seg\n")
                 f.write(f"Privacidade: {privacy_statement}\n\n")
+            
+            test_number += 1
 
 print("Testes concluídos! Resultados salvos em '{file_path}'.")
