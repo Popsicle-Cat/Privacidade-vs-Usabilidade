@@ -1,0 +1,2595 @@
+Resultados dos testes de modelos DP e n�o DP
+Todos os testes foram executados com: delta = 1e-05 e epochs = 30
+
+------------------------------------------------------------------
+Teste 0: 
+
+Modelo: a
+DP: False | LR: 0.01 | Batch: 25 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acur�cia: 0.9911 | Precis�o: 0.9911 | Recall: 0.9911 | F1: 0.9911
+Tempo de Treinamento: 240.39 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 1: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.9027 | Precis�o: 0.9028 | Recall: 0.9027 | F1: 0.9025
+Tempo de Treinamento: 611.43 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 2: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.8758 | Precis�o: 0.8764 | Recall: 0.8758 | F1: 0.8757
+Tempo de Treinamento: 608.21 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 3: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.9255 | Precis�o: 0.9257 | Recall: 0.9255 | F1: 0.9255
+Tempo de Treinamento: 608.64 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 4: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.9411 | Precis�o: 0.9414 | Recall: 0.9411 | F1: 0.9411
+Tempo de Treinamento: 608.17 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 5: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.9268 | Precis�o: 0.9271 | Recall: 0.9268 | F1: 0.9268
+Tempo de Treinamento: 607.87 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 6: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.8857 | Precis�o: 0.8857 | Recall: 0.8857 | F1: 0.8856
+Tempo de Treinamento: 609.82 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 7: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.9367 | Precis�o: 0.9372 | Recall: 0.9367 | F1: 0.9367
+Tempo de Treinamento: 610.44 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 8: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.8998 | Precis�o: 0.9003 | Recall: 0.8998 | F1: 0.8997
+Tempo de Treinamento: 611.76 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 9: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.8497 | Precis�o: 0.8498 | Recall: 0.8497 | F1: 0.8491
+Tempo de Treinamento: 615.57 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 10: 
+
+Modelo: a
+DP: False | LR: 0.01 | Batch: 50 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acur�cia: 0.9901 | Precis�o: 0.9901 | Recall: 0.9901 | F1: 0.9901
+Tempo de Treinamento: 184.96 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 11: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.8103 | Precis�o: 0.8102 | Recall: 0.8103 | F1: 0.8084
+Tempo de Treinamento: 438.37 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 12: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.8964 | Precis�o: 0.8964 | Recall: 0.8964 | F1: 0.8962
+Tempo de Treinamento: 439.17 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 13: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.8210 | Precis�o: 0.8213 | Recall: 0.8210 | F1: 0.8193
+Tempo de Treinamento: 438.04 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 14: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.8372 | Precis�o: 0.8372 | Recall: 0.8372 | F1: 0.8360
+Tempo de Treinamento: 440.91 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 15: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.8576 | Precis�o: 0.8567 | Recall: 0.8576 | F1: 0.8567
+Tempo de Treinamento: 438.36 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 16: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.8486 | Precis�o: 0.8486 | Recall: 0.8486 | F1: 0.8471
+Tempo de Treinamento: 453.38 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 17: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.8691 | Precis�o: 0.8693 | Recall: 0.8691 | F1: 0.8689
+Tempo de Treinamento: 437.55 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 18: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.9277 | Precis�o: 0.9278 | Recall: 0.9277 | F1: 0.9277
+Tempo de Treinamento: 438.30 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 19: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.9033 | Precis�o: 0.9032 | Recall: 0.9033 | F1: 0.9030
+Tempo de Treinamento: 438.14 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 20: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.8976 | Precis�o: 0.8975 | Recall: 0.8976 | F1: 0.8975
+Tempo de Treinamento: 438.83 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 21: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.8954 | Precis�o: 0.8957 | Recall: 0.8954 | F1: 0.8952
+Tempo de Treinamento: 438.18 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 22: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.9106 | Precis�o: 0.9113 | Recall: 0.9106 | F1: 0.9107
+Tempo de Treinamento: 438.44 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 23: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.9332 | Precis�o: 0.9333 | Recall: 0.9332 | F1: 0.9331
+Tempo de Treinamento: 439.71 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 24: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.9206 | Precis�o: 0.9205 | Recall: 0.9206 | F1: 0.9205
+Tempo de Treinamento: 439.46 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 25: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.9096 | Precis�o: 0.9095 | Recall: 0.9096 | F1: 0.9094
+Tempo de Treinamento: 440.16 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 26: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.9357 | Precis�o: 0.9359 | Recall: 0.9357 | F1: 0.9357
+Tempo de Treinamento: 440.60 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 27: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.8903 | Precis�o: 0.8908 | Recall: 0.8903 | F1: 0.8902
+Tempo de Treinamento: 440.06 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 28: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.8982 | Precis�o: 0.8989 | Recall: 0.8982 | F1: 0.8978
+Tempo de Treinamento: 440.29 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 29: 
+
+Modelo: a
+DP: False | LR: 0.01 | Batch: 100 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acur�cia: 0.9897 | Precis�o: 0.9897 | Recall: 0.9897 | F1: 0.9897
+Tempo de Treinamento: 168.62 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 30: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.7797 | Precis�o: 0.7789 | Recall: 0.7797 | F1: 0.7731
+Tempo de Treinamento: 331.15 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 31: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.8017 | Precis�o: 0.8044 | Recall: 0.8017 | F1: 0.7971
+Tempo de Treinamento: 329.35 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 32: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.7895 | Precis�o: 0.7937 | Recall: 0.7895 | F1: 0.7832
+Tempo de Treinamento: 332.07 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 33: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.8135 | Precis�o: 0.8132 | Recall: 0.8135 | F1: 0.8092
+Tempo de Treinamento: 331.62 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 34: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.7817 | Precis�o: 0.7820 | Recall: 0.7817 | F1: 0.7727
+Tempo de Treinamento: 328.18 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 35: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.7417 | Precis�o: 0.7425 | Recall: 0.7417 | F1: 0.7269
+Tempo de Treinamento: 331.75 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 36: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.8657 | Precis�o: 0.8655 | Recall: 0.8657 | F1: 0.8650
+Tempo de Treinamento: 330.83 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 37: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.8621 | Precis�o: 0.8616 | Recall: 0.8621 | F1: 0.8613
+Tempo de Treinamento: 330.70 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 38: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.8884 | Precis�o: 0.8889 | Recall: 0.8884 | F1: 0.8882
+Tempo de Treinamento: 332.47 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 39: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.8428 | Precis�o: 0.8417 | Recall: 0.8428 | F1: 0.8417
+Tempo de Treinamento: 329.59 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 40: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.8886 | Precis�o: 0.8885 | Recall: 0.8886 | F1: 0.8884
+Tempo de Treinamento: 330.58 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 41: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.8457 | Precis�o: 0.8447 | Recall: 0.8457 | F1: 0.8444
+Tempo de Treinamento: 330.29 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 42: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.8760 | Precis�o: 0.8761 | Recall: 0.8760 | F1: 0.8758
+Tempo de Treinamento: 331.18 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 43: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.8834 | Precis�o: 0.8839 | Recall: 0.8834 | F1: 0.8832
+Tempo de Treinamento: 330.73 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 44: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.9027 | Precis�o: 0.9032 | Recall: 0.9027 | F1: 0.9027
+Tempo de Treinamento: 330.20 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 45: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.8740 | Precis�o: 0.8739 | Recall: 0.8740 | F1: 0.8736
+Tempo de Treinamento: 330.34 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 46: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.8762 | Precis�o: 0.8764 | Recall: 0.8762 | F1: 0.8757
+Tempo de Treinamento: 330.72 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 47: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.8846 | Precis�o: 0.8844 | Recall: 0.8846 | F1: 0.8842
+Tempo de Treinamento: 329.92 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 48: 
+
+Modelo: a
+DP: False | LR: 0.005 | Batch: 25 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acur�cia: 0.9902 | Precis�o: 0.9902 | Recall: 0.9902 | F1: 0.9902
+Tempo de Treinamento: 235.48 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 49: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.8700 | Precis�o: 0.8701 | Recall: 0.8700 | F1: 0.8696
+Tempo de Treinamento: 580.94 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 50: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.8650 | Precis�o: 0.8648 | Recall: 0.8650 | F1: 0.8643
+Tempo de Treinamento: 582.34 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 51: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.9030 | Precis�o: 0.9034 | Recall: 0.9030 | F1: 0.9029
+Tempo de Treinamento: 582.82 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 52: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.8917 | Precis�o: 0.8921 | Recall: 0.8917 | F1: 0.8914
+Tempo de Treinamento: 580.16 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 53: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.9019 | Precis�o: 0.9029 | Recall: 0.9019 | F1: 0.9020
+Tempo de Treinamento: 579.78 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 54: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.9075 | Precis�o: 0.9079 | Recall: 0.9075 | F1: 0.9076
+Tempo de Treinamento: 582.98 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 55: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.9165 | Precis�o: 0.9166 | Recall: 0.9165 | F1: 0.9165
+Tempo de Treinamento: 584.32 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 56: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.8964 | Precis�o: 0.8967 | Recall: 0.8964 | F1: 0.8964
+Tempo de Treinamento: 582.83 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 57: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.8969 | Precis�o: 0.8976 | Recall: 0.8969 | F1: 0.8970
+Tempo de Treinamento: 584.68 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 58: 
+
+Modelo: a
+DP: False | LR: 0.005 | Batch: 50 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acur�cia: 0.9879 | Precis�o: 0.9879 | Recall: 0.9879 | F1: 0.9879
+Tempo de Treinamento: 173.10 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 59: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.7800 | Precis�o: 0.7793 | Recall: 0.7800 | F1: 0.7721
+Tempo de Treinamento: 412.78 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 60: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.7994 | Precis�o: 0.8006 | Recall: 0.7994 | F1: 0.7943
+Tempo de Treinamento: 412.33 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 61: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.7810 | Precis�o: 0.7835 | Recall: 0.7810 | F1: 0.7733
+Tempo de Treinamento: 408.73 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 62: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.7982 | Precis�o: 0.8017 | Recall: 0.7982 | F1: 0.7928
+Tempo de Treinamento: 409.68 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 63: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.7523 | Precis�o: 0.7550 | Recall: 0.7523 | F1: 0.7436
+Tempo de Treinamento: 409.24 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 64: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.7956 | Precis�o: 0.7989 | Recall: 0.7956 | F1: 0.7881
+Tempo de Treinamento: 408.18 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 65: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.8613 | Precis�o: 0.8613 | Recall: 0.8613 | F1: 0.8606
+Tempo de Treinamento: 408.97 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 66: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.8449 | Precis�o: 0.8443 | Recall: 0.8449 | F1: 0.8438
+Tempo de Treinamento: 409.26 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 67: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.8591 | Precis�o: 0.8592 | Recall: 0.8591 | F1: 0.8586
+Tempo de Treinamento: 409.55 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 68: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.8372 | Precis�o: 0.8374 | Recall: 0.8372 | F1: 0.8365
+Tempo de Treinamento: 408.95 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 69: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.8591 | Precis�o: 0.8597 | Recall: 0.8591 | F1: 0.8584
+Tempo de Treinamento: 409.75 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 70: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.8986 | Precis�o: 0.8990 | Recall: 0.8986 | F1: 0.8985
+Tempo de Treinamento: 409.04 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 71: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.8685 | Precis�o: 0.8688 | Recall: 0.8685 | F1: 0.8682
+Tempo de Treinamento: 409.27 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 72: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.8688 | Precis�o: 0.8691 | Recall: 0.8688 | F1: 0.8685
+Tempo de Treinamento: 408.73 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 73: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.9114 | Precis�o: 0.9117 | Recall: 0.9114 | F1: 0.9114
+Tempo de Treinamento: 409.94 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 74: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.9110 | Precis�o: 0.9119 | Recall: 0.9110 | F1: 0.9110
+Tempo de Treinamento: 409.91 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 75: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.8870 | Precis�o: 0.8869 | Recall: 0.8870 | F1: 0.8866
+Tempo de Treinamento: 410.34 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 76: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.8983 | Precis�o: 0.8985 | Recall: 0.8983 | F1: 0.8982
+Tempo de Treinamento: 409.55 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 77: 
+
+Modelo: a
+DP: False | LR: 0.005 | Batch: 100 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acur�cia: 0.9839 | Precis�o: 0.9840 | Recall: 0.9839 | F1: 0.9839
+Tempo de Treinamento: 148.29 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 78: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.6560 | Precis�o: 0.6797 | Recall: 0.6560 | F1: 0.6156
+Tempo de Treinamento: 332.69 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 79: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.6990 | Precis�o: 0.7125 | Recall: 0.6990 | F1: 0.6777
+Tempo de Treinamento: 332.37 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 80: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.6871 | Precis�o: 0.6868 | Recall: 0.6871 | F1: 0.6658
+Tempo de Treinamento: 332.09 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 81: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.7146 | Precis�o: 0.7150 | Recall: 0.7146 | F1: 0.6936
+Tempo de Treinamento: 332.25 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 82: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.7041 | Precis�o: 0.7098 | Recall: 0.7041 | F1: 0.6834
+Tempo de Treinamento: 334.18 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 83: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.6937 | Precis�o: 0.7129 | Recall: 0.6937 | F1: 0.6665
+Tempo de Treinamento: 332.89 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 84: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.7971 | Precis�o: 0.7986 | Recall: 0.7971 | F1: 0.7910
+Tempo de Treinamento: 333.73 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 85: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.7892 | Precis�o: 0.7945 | Recall: 0.7892 | F1: 0.7800
+Tempo de Treinamento: 333.49 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 86: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.8310 | Precis�o: 0.8328 | Recall: 0.8310 | F1: 0.8282
+Tempo de Treinamento: 331.58 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 87: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.8316 | Precis�o: 0.8302 | Recall: 0.8316 | F1: 0.8283
+Tempo de Treinamento: 333.42 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 88: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.7865 | Precis�o: 0.7856 | Recall: 0.7865 | F1: 0.7797
+Tempo de Treinamento: 331.85 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 89: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.7875 | Precis�o: 0.7861 | Recall: 0.7875 | F1: 0.7821
+Tempo de Treinamento: 333.68 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 90: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.8422 | Precis�o: 0.8416 | Recall: 0.8422 | F1: 0.8407
+Tempo de Treinamento: 333.40 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 91: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.8340 | Precis�o: 0.8336 | Recall: 0.8340 | F1: 0.8324
+Tempo de Treinamento: 332.97 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 92: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.8136 | Precis�o: 0.8108 | Recall: 0.8136 | F1: 0.8109
+Tempo de Treinamento: 332.54 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 93: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.8326 | Precis�o: 0.8331 | Recall: 0.8326 | F1: 0.8311
+Tempo de Treinamento: 331.31 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 94: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.8629 | Precis�o: 0.8631 | Recall: 0.8629 | F1: 0.8622
+Tempo de Treinamento: 332.77 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 95: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.8312 | Precis�o: 0.8306 | Recall: 0.8312 | F1: 0.8281
+Tempo de Treinamento: 333.73 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 96: 
+
+Modelo: a
+DP: False | LR: 0.001 | Batch: 25 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acur�cia: 0.9790 | Precis�o: 0.9792 | Recall: 0.9790 | F1: 0.9790
+Tempo de Treinamento: 237.12 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 97: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.6446 | Precis�o: 0.6681 | Recall: 0.6446 | F1: 0.6195
+Tempo de Treinamento: 584.00 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 98: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.6942 | Precis�o: 0.7240 | Recall: 0.6942 | F1: 0.6634
+Tempo de Treinamento: 582.80 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 99: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.6679 | Precis�o: 0.7013 | Recall: 0.6679 | F1: 0.6594
+Tempo de Treinamento: 583.14 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 100: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.8287 | Precis�o: 0.8327 | Recall: 0.8287 | F1: 0.8247
+Tempo de Treinamento: 582.27 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 101: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.7772 | Precis�o: 0.7758 | Recall: 0.7772 | F1: 0.7710
+Tempo de Treinamento: 584.89 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 102: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.7809 | Precis�o: 0.7894 | Recall: 0.7809 | F1: 0.7714
+Tempo de Treinamento: 586.23 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 103: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.8142 | Precis�o: 0.8133 | Recall: 0.8142 | F1: 0.8106
+Tempo de Treinamento: 588.13 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 104: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.8244 | Precis�o: 0.8233 | Recall: 0.8244 | F1: 0.8212
+Tempo de Treinamento: 585.37 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 105: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.7941 | Precis�o: 0.7949 | Recall: 0.7941 | F1: 0.7910
+Tempo de Treinamento: 587.89 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 106: 
+
+Modelo: a
+DP: False | LR: 0.001 | Batch: 50 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acur�cia: 0.9752 | Precis�o: 0.9752 | Recall: 0.9752 | F1: 0.9752
+Tempo de Treinamento: 176.13 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 107: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.5014 | Precis�o: 0.4575 | Recall: 0.5014 | F1: 0.4196
+Tempo de Treinamento: 431.74 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 108: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.5848 | Precis�o: 0.6247 | Recall: 0.5848 | F1: 0.5450
+Tempo de Treinamento: 436.58 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 109: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.4944 | Precis�o: 0.5687 | Recall: 0.4944 | F1: 0.4381
+Tempo de Treinamento: 441.45 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 110: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.5391 | Precis�o: 0.6607 | Recall: 0.5391 | F1: 0.4739
+Tempo de Treinamento: 442.66 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 111: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.6253 | Precis�o: 0.6444 | Recall: 0.6253 | F1: 0.5648
+Tempo de Treinamento: 441.92 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 112: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.4712 | Precis�o: 0.5939 | Recall: 0.4712 | F1: 0.4071
+Tempo de Treinamento: 440.36 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 113: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.6706 | Precis�o: 0.6930 | Recall: 0.6706 | F1: 0.6539
+Tempo de Treinamento: 440.13 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 114: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.6881 | Precis�o: 0.7145 | Recall: 0.6881 | F1: 0.6630
+Tempo de Treinamento: 441.28 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 115: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.7029 | Precis�o: 0.7048 | Recall: 0.7029 | F1: 0.6847
+Tempo de Treinamento: 440.73 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 116: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.6138 | Precis�o: 0.6462 | Recall: 0.6138 | F1: 0.5879
+Tempo de Treinamento: 441.82 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 117: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.6802 | Precis�o: 0.6966 | Recall: 0.6802 | F1: 0.6620
+Tempo de Treinamento: 441.28 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 118: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.6933 | Precis�o: 0.7084 | Recall: 0.6933 | F1: 0.6703
+Tempo de Treinamento: 443.71 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 119: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.7038 | Precis�o: 0.7005 | Recall: 0.7038 | F1: 0.6875
+Tempo de Treinamento: 442.13 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 120: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.7322 | Precis�o: 0.7386 | Recall: 0.7322 | F1: 0.7171
+Tempo de Treinamento: 441.77 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 121: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.7651 | Precis�o: 0.7621 | Recall: 0.7651 | F1: 0.7557
+Tempo de Treinamento: 439.14 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 122: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.7132 | Precis�o: 0.7335 | Recall: 0.7132 | F1: 0.6823
+Tempo de Treinamento: 440.01 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 123: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.7383 | Precis�o: 0.7497 | Recall: 0.7383 | F1: 0.7233
+Tempo de Treinamento: 439.18 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 124: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.7390 | Precis�o: 0.7529 | Recall: 0.7390 | F1: 0.7217
+Tempo de Treinamento: 440.10 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 125: 
+
+Modelo: a
+DP: False | LR: 0.001 | Batch: 100 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acur�cia: 0.9440 | Precis�o: 0.9441 | Recall: 0.9440 | F1: 0.9440
+Tempo de Treinamento: 167.72 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 126: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.3609 | Precis�o: 0.4736 | Recall: 0.3609 | F1: 0.2803
+Tempo de Treinamento: 351.49 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 127: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.3146 | Precis�o: 0.3236 | Recall: 0.3146 | F1: 0.2639
+Tempo de Treinamento: 351.12 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 128: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.3259 | Precis�o: 0.4836 | Recall: 0.3259 | F1: 0.2698
+Tempo de Treinamento: 351.50 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 129: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.4120 | Precis�o: 0.3099 | Recall: 0.4120 | F1: 0.2820
+Tempo de Treinamento: 351.54 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 130: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.2161 | Precis�o: 0.3101 | Recall: 0.2161 | F1: 0.1440
+Tempo de Treinamento: 351.37 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 131: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.3293 | Precis�o: 0.3081 | Recall: 0.3293 | F1: 0.2616
+Tempo de Treinamento: 350.88 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 132: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.4454 | Precis�o: 0.5466 | Recall: 0.4454 | F1: 0.3542
+Tempo de Treinamento: 352.18 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 133: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.5310 | Precis�o: 0.5490 | Recall: 0.5310 | F1: 0.4702
+Tempo de Treinamento: 350.79 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 134: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.4862 | Precis�o: 0.6178 | Recall: 0.4862 | F1: 0.4336
+Tempo de Treinamento: 352.16 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 135: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.5041 | Precis�o: 0.6178 | Recall: 0.5041 | F1: 0.4546
+Tempo de Treinamento: 352.10 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 136: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.6567 | Precis�o: 0.6644 | Recall: 0.6567 | F1: 0.6284
+Tempo de Treinamento: 351.21 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 137: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.5747 | Precis�o: 0.6847 | Recall: 0.5747 | F1: 0.5184
+Tempo de Treinamento: 351.76 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 138: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.5566 | Precis�o: 0.6307 | Recall: 0.5566 | F1: 0.5291
+Tempo de Treinamento: 350.11 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 139: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.5788 | Precis�o: 0.6003 | Recall: 0.5788 | F1: 0.5441
+Tempo de Treinamento: 350.65 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 140: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.6296 | Precis�o: 0.6528 | Recall: 0.6296 | F1: 0.5941
+Tempo de Treinamento: 351.31 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 141: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.6195 | Precis�o: 0.6332 | Recall: 0.6195 | F1: 0.5609
+Tempo de Treinamento: 350.46 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 142: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.5432 | Precis�o: 0.5611 | Recall: 0.5432 | F1: 0.5065
+Tempo de Treinamento: 350.78 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 143: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.6294 | Precis�o: 0.6999 | Recall: 0.6294 | F1: 0.5715
+Tempo de Treinamento: 352.01 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 144: 
+
+Modelo: b
+DP: False | LR: 0.01 | Batch: 25 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acur�cia: 0.9949 | Precis�o: 0.9949 | Recall: 0.9949 | F1: 0.9949
+Tempo de Treinamento: 1383.91 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 145: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.9584 | Precis�o: 0.9585 | Recall: 0.9584 | F1: 0.9583
+Tempo de Treinamento: 3892.99 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 146: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.9390 | Precis�o: 0.9395 | Recall: 0.9390 | F1: 0.9388
+Tempo de Treinamento: 3897.86 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 147: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.9030 | Precis�o: 0.9030 | Recall: 0.9030 | F1: 0.9017
+Tempo de Treinamento: 3820.66 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 148: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.9617 | Precis�o: 0.9618 | Recall: 0.9617 | F1: 0.9617
+Tempo de Treinamento: 3836.44 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 149: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.9308 | Precis�o: 0.9310 | Recall: 0.9308 | F1: 0.9306
+Tempo de Treinamento: 3844.97 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 150: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.9209 | Precis�o: 0.9211 | Recall: 0.9209 | F1: 0.9205
+Tempo de Treinamento: 3832.28 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 151: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.9617 | Precis�o: 0.9618 | Recall: 0.9617 | F1: 0.9617
+Tempo de Treinamento: 3833.01 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 152: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.9282 | Precis�o: 0.9288 | Recall: 0.9282 | F1: 0.9278
+Tempo de Treinamento: 3826.30 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 153: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.9072 | Precis�o: 0.9076 | Recall: 0.9072 | F1: 0.9066
+Tempo de Treinamento: 3834.46 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 154: 
+
+Modelo: b
+DP: False | LR: 0.01 | Batch: 50 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acur�cia: 0.9955 | Precis�o: 0.9955 | Recall: 0.9955 | F1: 0.9955
+Tempo de Treinamento: 1258.58 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 155: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.9418 | Precis�o: 0.9422 | Recall: 0.9418 | F1: 0.9416
+Tempo de Treinamento: 3287.04 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 156: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.9381 | Precis�o: 0.9386 | Recall: 0.9381 | F1: 0.9378
+Tempo de Treinamento: 3287.33 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 157: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.9390 | Precis�o: 0.9399 | Recall: 0.9390 | F1: 0.9387
+Tempo de Treinamento: 3301.00 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 158: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.9319 | Precis�o: 0.9327 | Recall: 0.9319 | F1: 0.9314
+Tempo de Treinamento: 3295.17 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 159: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.9103 | Precis�o: 0.9129 | Recall: 0.9103 | F1: 0.9093
+Tempo de Treinamento: 3286.13 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 160: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.9346 | Precis�o: 0.9356 | Recall: 0.9346 | F1: 0.9342
+Tempo de Treinamento: 3292.64 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 161: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.9630 | Precis�o: 0.9631 | Recall: 0.9630 | F1: 0.9630
+Tempo de Treinamento: 3290.39 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 162: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.9647 | Precis�o: 0.9647 | Recall: 0.9647 | F1: 0.9647
+Tempo de Treinamento: 3291.90 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 163: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.9506 | Precis�o: 0.9507 | Recall: 0.9506 | F1: 0.9506
+Tempo de Treinamento: 3289.37 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 164: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.9541 | Precis�o: 0.9542 | Recall: 0.9541 | F1: 0.9541
+Tempo de Treinamento: 3295.92 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 165: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.9273 | Precis�o: 0.9275 | Recall: 0.9273 | F1: 0.9271
+Tempo de Treinamento: 3294.21 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 166: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.9358 | Precis�o: 0.9364 | Recall: 0.9358 | F1: 0.9357
+Tempo de Treinamento: 3290.59 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 167: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.9643 | Precis�o: 0.9644 | Recall: 0.9643 | F1: 0.9643
+Tempo de Treinamento: 3522.80 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 168: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.9675 | Precis�o: 0.9675 | Recall: 0.9675 | F1: 0.9675
+Tempo de Treinamento: 3820.08 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 169: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.9482 | Precis�o: 0.9485 | Recall: 0.9482 | F1: 0.9481
+Tempo de Treinamento: 3724.59 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 170: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.9510 | Precis�o: 0.9510 | Recall: 0.9510 | F1: 0.9509
+Tempo de Treinamento: 3299.58 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 171: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.9295 | Precis�o: 0.9299 | Recall: 0.9295 | F1: 0.9292
+Tempo de Treinamento: 3300.69 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 172: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.9261 | Precis�o: 0.9266 | Recall: 0.9261 | F1: 0.9256
+Tempo de Treinamento: 3303.60 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 173: 
+
+Modelo: b
+DP: False | LR: 0.01 | Batch: 100 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acur�cia: 0.9951 | Precis�o: 0.9951 | Recall: 0.9951 | F1: 0.9951
+Tempo de Treinamento: 1218.37 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 174: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.8960 | Precis�o: 0.8999 | Recall: 0.8960 | F1: 0.8938
+Tempo de Treinamento: 3245.47 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 175: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.8890 | Precis�o: 0.8962 | Recall: 0.8890 | F1: 0.8859
+Tempo de Treinamento: 3099.87 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 176: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.8614 | Precis�o: 0.8714 | Recall: 0.8614 | F1: 0.8555
+Tempo de Treinamento: 3171.57 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 177: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.8655 | Precis�o: 0.8768 | Recall: 0.8655 | F1: 0.8611
+Tempo de Treinamento: 3259.65 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 178: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.8790 | Precis�o: 0.8869 | Recall: 0.8790 | F1: 0.8762
+Tempo de Treinamento: 3191.64 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 179: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.8627 | Precis�o: 0.8695 | Recall: 0.8627 | F1: 0.8582
+Tempo de Treinamento: 3074.28 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 180: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.9555 | Precis�o: 0.9556 | Recall: 0.9555 | F1: 0.9555
+Tempo de Treinamento: 3076.77 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 181: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.9551 | Precis�o: 0.9552 | Recall: 0.9551 | F1: 0.9551
+Tempo de Treinamento: 3074.90 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 182: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.9442 | Precis�o: 0.9446 | Recall: 0.9442 | F1: 0.9440
+Tempo de Treinamento: 3166.92 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 183: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.9350 | Precis�o: 0.9353 | Recall: 0.9350 | F1: 0.9348
+Tempo de Treinamento: 3239.93 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 184: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.9312 | Precis�o: 0.9319 | Recall: 0.9312 | F1: 0.9311
+Tempo de Treinamento: 3078.26 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 185: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.9374 | Precis�o: 0.9377 | Recall: 0.9374 | F1: 0.9371
+Tempo de Treinamento: 3079.79 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 186: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.9626 | Precis�o: 0.9627 | Recall: 0.9626 | F1: 0.9626
+Tempo de Treinamento: 3082.96 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 187: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.9627 | Precis�o: 0.9627 | Recall: 0.9627 | F1: 0.9627
+Tempo de Treinamento: 3079.18 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 188: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.9587 | Precis�o: 0.9588 | Recall: 0.9587 | F1: 0.9586
+Tempo de Treinamento: 3072.54 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 189: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.9571 | Precis�o: 0.9573 | Recall: 0.9571 | F1: 0.9570
+Tempo de Treinamento: 3088.30 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 190: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.9512 | Precis�o: 0.9515 | Recall: 0.9512 | F1: 0.9511
+Tempo de Treinamento: 3076.92 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 191: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.9462 | Precis�o: 0.9463 | Recall: 0.9462 | F1: 0.9462
+Tempo de Treinamento: 3092.14 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 192: 
+
+Modelo: b
+DP: False | LR: 0.005 | Batch: 25 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acur�cia: 0.9937 | Precis�o: 0.9937 | Recall: 0.9937 | F1: 0.9937
+Tempo de Treinamento: 1383.68 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 193: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.9437 | Precis�o: 0.9439 | Recall: 0.9437 | F1: 0.9436
+Tempo de Treinamento: 3861.04 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 194: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.9140 | Precis�o: 0.9156 | Recall: 0.9140 | F1: 0.9127
+Tempo de Treinamento: 4283.54 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 195: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.8786 | Precis�o: 0.8849 | Recall: 0.8786 | F1: 0.8752
+Tempo de Treinamento: 4554.61 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 196: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.9582 | Precis�o: 0.9583 | Recall: 0.9582 | F1: 0.9582
+Tempo de Treinamento: 4435.43 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 197: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.9369 | Precis�o: 0.9378 | Recall: 0.9369 | F1: 0.9368
+Tempo de Treinamento: 4134.52 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 198: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.8979 | Precis�o: 0.8983 | Recall: 0.8979 | F1: 0.8965
+Tempo de Treinamento: 3829.70 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 199: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.9597 | Precis�o: 0.9597 | Recall: 0.9597 | F1: 0.9597
+Tempo de Treinamento: 3827.41 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 200: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.9293 | Precis�o: 0.9301 | Recall: 0.9293 | F1: 0.9287
+Tempo de Treinamento: 3848.05 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 201: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.9000 | Precis�o: 0.9027 | Recall: 0.9000 | F1: 0.8990
+Tempo de Treinamento: 3834.97 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 202: 
+
+Modelo: b
+DP: False | LR: 0.005 | Batch: 50 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acur�cia: 0.9941 | Precis�o: 0.9941 | Recall: 0.9941 | F1: 0.9941
+Tempo de Treinamento: 1250.80 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 203: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.8986 | Precis�o: 0.9043 | Recall: 0.8986 | F1: 0.8967
+Tempo de Treinamento: 3318.84 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 204: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.8773 | Precis�o: 0.8831 | Recall: 0.8773 | F1: 0.8744
+Tempo de Treinamento: 3303.16 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 205: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.8548 | Precis�o: 0.8683 | Recall: 0.8548 | F1: 0.8492
+Tempo de Treinamento: 3305.21 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 206: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.8685 | Precis�o: 0.8754 | Recall: 0.8685 | F1: 0.8638
+Tempo de Treinamento: 3305.94 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 207: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.8555 | Precis�o: 0.8682 | Recall: 0.8555 | F1: 0.8502
+Tempo de Treinamento: 3305.43 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 208: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.8595 | Precis�o: 0.8727 | Recall: 0.8595 | F1: 0.8546
+Tempo de Treinamento: 3304.16 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 209: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.9429 | Precis�o: 0.9432 | Recall: 0.9429 | F1: 0.9428
+Tempo de Treinamento: 3306.87 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 210: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.9401 | Precis�o: 0.9405 | Recall: 0.9401 | F1: 0.9398
+Tempo de Treinamento: 3318.29 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 211: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.9221 | Precis�o: 0.9225 | Recall: 0.9221 | F1: 0.9217
+Tempo de Treinamento: 3309.75 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 212: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.9334 | Precis�o: 0.9338 | Recall: 0.9334 | F1: 0.9332
+Tempo de Treinamento: 3311.93 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 213: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.9218 | Precis�o: 0.9234 | Recall: 0.9218 | F1: 0.9207
+Tempo de Treinamento: 3308.98 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 214: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.9154 | Precis�o: 0.9173 | Recall: 0.9154 | F1: 0.9145
+Tempo de Treinamento: 3302.93 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 215: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.9589 | Precis�o: 0.9590 | Recall: 0.9589 | F1: 0.9588
+Tempo de Treinamento: 3322.34 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 216: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.9582 | Precis�o: 0.9583 | Recall: 0.9582 | F1: 0.9581
+Tempo de Treinamento: 3304.01 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 217: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.9408 | Precis�o: 0.9412 | Recall: 0.9408 | F1: 0.9406
+Tempo de Treinamento: 3307.33 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 218: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.9475 | Precis�o: 0.9476 | Recall: 0.9475 | F1: 0.9474
+Tempo de Treinamento: 3305.12 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 219: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.9270 | Precis�o: 0.9279 | Recall: 0.9270 | F1: 0.9267
+Tempo de Treinamento: 3303.38 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 220: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.9348 | Precis�o: 0.9354 | Recall: 0.9348 | F1: 0.9345
+Tempo de Treinamento: 3738.88 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 221: 
+
+Modelo: b
+DP: False | LR: 0.005 | Batch: 100 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acur�cia: 0.9945 | Precis�o: 0.9945 | Recall: 0.9945 | F1: 0.9945
+Tempo de Treinamento: 1210.24 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 222: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.7618 | Precis�o: 0.7889 | Recall: 0.7618 | F1: 0.7403
+Tempo de Treinamento: 3088.79 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 223: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.7845 | Precis�o: 0.8123 | Recall: 0.7845 | F1: 0.7594
+Tempo de Treinamento: 3097.11 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 224: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.7469 | Precis�o: 0.7769 | Recall: 0.7469 | F1: 0.7146
+Tempo de Treinamento: 3088.82 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 225: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.7694 | Precis�o: 0.7894 | Recall: 0.7694 | F1: 0.7501
+Tempo de Treinamento: 3094.13 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 226: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.8297 | Precis�o: 0.8423 | Recall: 0.8297 | F1: 0.8227
+Tempo de Treinamento: 3091.81 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 227: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.7613 | Precis�o: 0.7967 | Recall: 0.7613 | F1: 0.7434
+Tempo de Treinamento: 3086.47 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 228: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.8880 | Precis�o: 0.8941 | Recall: 0.8880 | F1: 0.8854
+Tempo de Treinamento: 3098.97 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 229: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.8865 | Precis�o: 0.8917 | Recall: 0.8865 | F1: 0.8839
+Tempo de Treinamento: 3101.90 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 230: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.8719 | Precis�o: 0.8793 | Recall: 0.8719 | F1: 0.8684
+Tempo de Treinamento: 3091.34 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 231: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.8853 | Precis�o: 0.8930 | Recall: 0.8853 | F1: 0.8813
+Tempo de Treinamento: 3086.30 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 232: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.8765 | Precis�o: 0.8843 | Recall: 0.8765 | F1: 0.8731
+Tempo de Treinamento: 3087.74 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 233: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.8800 | Precis�o: 0.8863 | Recall: 0.8800 | F1: 0.8779
+Tempo de Treinamento: 3089.63 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 234: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.9419 | Precis�o: 0.9421 | Recall: 0.9419 | F1: 0.9417
+Tempo de Treinamento: 3092.25 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 235: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.9263 | Precis�o: 0.9270 | Recall: 0.9263 | F1: 0.9258
+Tempo de Treinamento: 3088.05 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 236: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.9287 | Precis�o: 0.9299 | Recall: 0.9287 | F1: 0.9283
+Tempo de Treinamento: 3085.16 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 237: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.9261 | Precis�o: 0.9268 | Recall: 0.9261 | F1: 0.9257
+Tempo de Treinamento: 3085.30 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 238: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.9297 | Precis�o: 0.9307 | Recall: 0.9297 | F1: 0.9294
+Tempo de Treinamento: 3086.31 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 239: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.9225 | Precis�o: 0.9236 | Recall: 0.9225 | F1: 0.9217
+Tempo de Treinamento: 3087.15 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 240: 
+
+Modelo: b
+DP: False | LR: 0.001 | Batch: 25 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acur�cia: 0.9941 | Precis�o: 0.9941 | Recall: 0.9941 | F1: 0.9941
+Tempo de Treinamento: 1385.28 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 241: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.7459 | Precis�o: 0.7710 | Recall: 0.7459 | F1: 0.7226
+Tempo de Treinamento: 3840.82 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 242: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.7439 | Precis�o: 0.7840 | Recall: 0.7439 | F1: 0.7144
+Tempo de Treinamento: 3855.23 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 243: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.7298 | Precis�o: 0.7672 | Recall: 0.7298 | F1: 0.7008
+Tempo de Treinamento: 3849.49 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 244: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.8434 | Precis�o: 0.8633 | Recall: 0.8434 | F1: 0.8297
+Tempo de Treinamento: 3866.31 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 245: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.8119 | Precis�o: 0.8292 | Recall: 0.8119 | F1: 0.7958
+Tempo de Treinamento: 3854.09 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 246: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.8013 | Precis�o: 0.8213 | Recall: 0.8013 | F1: 0.7884
+Tempo de Treinamento: 3841.36 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 247: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.9049 | Precis�o: 0.9075 | Recall: 0.9049 | F1: 0.9035
+Tempo de Treinamento: 3849.70 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 248: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.8544 | Precis�o: 0.8730 | Recall: 0.8544 | F1: 0.8481
+Tempo de Treinamento: 3861.74 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 249: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.8796 | Precis�o: 0.8832 | Recall: 0.8796 | F1: 0.8758
+Tempo de Treinamento: 3852.92 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 250: 
+
+Modelo: b
+DP: False | LR: 0.001 | Batch: 50 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acur�cia: 0.9921 | Precis�o: 0.9921 | Recall: 0.9921 | F1: 0.9921
+Tempo de Treinamento: 1249.68 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 251: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.6669 | Precis�o: 0.7346 | Recall: 0.6669 | F1: 0.6314
+Tempo de Treinamento: 3290.20 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 252: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.7059 | Precis�o: 0.7479 | Recall: 0.7059 | F1: 0.6774
+Tempo de Treinamento: 3291.75 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 253: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.6926 | Precis�o: 0.7119 | Recall: 0.6926 | F1: 0.6660
+Tempo de Treinamento: 3288.71 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 254: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.7142 | Precis�o: 0.7435 | Recall: 0.7142 | F1: 0.7080
+Tempo de Treinamento: 3291.48 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 255: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.6665 | Precis�o: 0.7203 | Recall: 0.6665 | F1: 0.6351
+Tempo de Treinamento: 3296.95 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 256: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.6377 | Precis�o: 0.7251 | Recall: 0.6377 | F1: 0.6175
+Tempo de Treinamento: 3297.90 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 257: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.7448 | Precis�o: 0.7794 | Recall: 0.7448 | F1: 0.7111
+Tempo de Treinamento: 3300.88 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 258: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.7764 | Precis�o: 0.7924 | Recall: 0.7764 | F1: 0.7601
+Tempo de Treinamento: 3299.72 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 259: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.7425 | Precis�o: 0.7863 | Recall: 0.7425 | F1: 0.7175
+Tempo de Treinamento: 3296.34 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 260: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.7371 | Precis�o: 0.7870 | Recall: 0.7371 | F1: 0.7082
+Tempo de Treinamento: 3302.02 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 261: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.7734 | Precis�o: 0.7899 | Recall: 0.7734 | F1: 0.7611
+Tempo de Treinamento: 3299.12 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 262: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.7650 | Precis�o: 0.7867 | Recall: 0.7650 | F1: 0.7468
+Tempo de Treinamento: 3301.30 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 263: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.8163 | Precis�o: 0.8340 | Recall: 0.8163 | F1: 0.8064
+Tempo de Treinamento: 3299.51 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 264: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.8345 | Precis�o: 0.8449 | Recall: 0.8345 | F1: 0.8272
+Tempo de Treinamento: 3308.71 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 265: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.7991 | Precis�o: 0.8232 | Recall: 0.7991 | F1: 0.7781
+Tempo de Treinamento: 3303.54 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 266: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.7764 | Precis�o: 0.8103 | Recall: 0.7764 | F1: 0.7582
+Tempo de Treinamento: 3315.07 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 267: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.8123 | Precis�o: 0.8296 | Recall: 0.8123 | F1: 0.8026
+Tempo de Treinamento: 3302.38 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 268: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.8065 | Precis�o: 0.8183 | Recall: 0.8065 | F1: 0.8001
+Tempo de Treinamento: 3304.30 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 269: 
+
+Modelo: b
+DP: False | LR: 0.001 | Batch: 100 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acur�cia: 0.9871 | Precis�o: 0.9871 | Recall: 0.9871 | F1: 0.9871
+Tempo de Treinamento: 1206.21 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 270: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.6156 | Precis�o: 0.6244 | Recall: 0.6156 | F1: 0.5764
+Tempo de Treinamento: 3095.69 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 271: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.5034 | Precis�o: 0.5837 | Recall: 0.5034 | F1: 0.4598
+Tempo de Treinamento: 3337.19 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 272: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.6807 | Precis�o: 0.7269 | Recall: 0.6807 | F1: 0.6695
+Tempo de Treinamento: 3256.97 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 273: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.5126 | Precis�o: 0.5752 | Recall: 0.5126 | F1: 0.4439
+Tempo de Treinamento: 3072.80 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 274: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.6111 | Precis�o: 0.6577 | Recall: 0.6111 | F1: 0.5726
+Tempo de Treinamento: 3076.33 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 275: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.5823 | Precis�o: 0.5894 | Recall: 0.5823 | F1: 0.5353
+Tempo de Treinamento: 3242.66 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 276: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.6849 | Precis�o: 0.7442 | Recall: 0.6849 | F1: 0.6527
+Tempo de Treinamento: 3332.85 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 277: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.7047 | Precis�o: 0.7556 | Recall: 0.7047 | F1: 0.6852
+Tempo de Treinamento: 3092.97 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 278: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.7187 | Precis�o: 0.7631 | Recall: 0.7187 | F1: 0.7055
+Tempo de Treinamento: 3070.86 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 279: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.6770 | Precis�o: 0.7479 | Recall: 0.6770 | F1: 0.6359
+Tempo de Treinamento: 3073.93 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 280: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.7189 | Precis�o: 0.7493 | Recall: 0.7189 | F1: 0.6996
+Tempo de Treinamento: 3064.85 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 281: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.7014 | Precis�o: 0.7495 | Recall: 0.7014 | F1: 0.6863
+Tempo de Treinamento: 3071.77 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 282: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acur�cia: 0.7466 | Precis�o: 0.7719 | Recall: 0.7466 | F1: 0.7322
+Tempo de Treinamento: 3065.32 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 283: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 10
+Acur�cia: 0.7202 | Precis�o: 0.7630 | Recall: 0.7202 | F1: 0.6927
+Tempo de Treinamento: 3066.60 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 284: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acur�cia: 0.7212 | Precis�o: 0.7578 | Recall: 0.7212 | F1: 0.6947
+Tempo de Treinamento: 3067.94 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 285: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 10
+Acur�cia: 0.7404 | Precis�o: 0.7684 | Recall: 0.7404 | F1: 0.7082
+Tempo de Treinamento: 3069.04 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 286: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acur�cia: 0.7664 | Precis�o: 0.7983 | Recall: 0.7664 | F1: 0.7480
+Tempo de Treinamento: 3147.22 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 287: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 10
+Acur�cia: 0.7545 | Precis�o: 0.7857 | Recall: 0.7545 | F1: 0.7408
+Tempo de Treinamento: 3196.81 seg
+Privacidade: Epsilon: 0.61
+

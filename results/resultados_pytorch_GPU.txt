@@ -1,0 +1,2595 @@
+Resultados dos testes de modelos DP e não DP
+Todos os testes foram executados com: delta = 1e-05 e epochs = 30
+
+------------------------------------------------------------------
+Teste 0: 
+
+Modelo: a
+DP: False | LR: 0.01 | Batch: 25 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acurácia: 0.9913 | Precisão: 0.9913 | Recall: 0.9913 | F1: 0.9913
+Tempo de Treinamento: 162.94 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 1: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9011 | Precisão: 0.9014 | Recall: 0.9011 | F1: 0.9010
+Tempo de Treinamento: 477.34 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 2: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.8888 | Precisão: 0.8893 | Recall: 0.8888 | F1: 0.8888
+Tempo de Treinamento: 476.71 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 3: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.8746 | Precisão: 0.8751 | Recall: 0.8746 | F1: 0.8743
+Tempo de Treinamento: 478.73 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 4: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9332 | Precisão: 0.9332 | Recall: 0.9332 | F1: 0.9331
+Tempo de Treinamento: 476.71 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 5: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.9303 | Precisão: 0.9305 | Recall: 0.9303 | F1: 0.9303
+Tempo de Treinamento: 476.39 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 6: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.8889 | Precisão: 0.8887 | Recall: 0.8889 | F1: 0.8885
+Tempo de Treinamento: 476.17 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 7: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9398 | Precisão: 0.9400 | Recall: 0.9398 | F1: 0.9398
+Tempo de Treinamento: 476.15 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 8: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.8949 | Precisão: 0.8952 | Recall: 0.8949 | F1: 0.8946
+Tempo de Treinamento: 477.13 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 9: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.8679 | Precisão: 0.8693 | Recall: 0.8679 | F1: 0.8676
+Tempo de Treinamento: 476.88 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 10: 
+
+Modelo: a
+DP: False | LR: 0.01 | Batch: 50 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acurácia: 0.9890 | Precisão: 0.9891 | Recall: 0.9890 | F1: 0.9890
+Tempo de Treinamento: 91.88 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 11: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.8454 | Precisão: 0.8452 | Recall: 0.8454 | F1: 0.8444
+Tempo de Treinamento: 240.76 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 12: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.8174 | Precisão: 0.8154 | Recall: 0.8174 | F1: 0.8147
+Tempo de Treinamento: 240.97 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 13: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.8400 | Precisão: 0.8390 | Recall: 0.8400 | F1: 0.8385
+Tempo de Treinamento: 241.38 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 14: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.8799 | Precisão: 0.8804 | Recall: 0.8799 | F1: 0.8795
+Tempo de Treinamento: 240.89 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 15: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.8566 | Precisão: 0.8561 | Recall: 0.8566 | F1: 0.8555
+Tempo de Treinamento: 240.92 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 16: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.8917 | Precisão: 0.8917 | Recall: 0.8917 | F1: 0.8913
+Tempo de Treinamento: 240.53 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 17: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.8911 | Precisão: 0.8912 | Recall: 0.8911 | F1: 0.8909
+Tempo de Treinamento: 240.37 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 18: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.8755 | Precisão: 0.8764 | Recall: 0.8755 | F1: 0.8753
+Tempo de Treinamento: 240.64 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 19: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.8645 | Precisão: 0.8643 | Recall: 0.8645 | F1: 0.8638
+Tempo de Treinamento: 241.08 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 20: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.8946 | Precisão: 0.8952 | Recall: 0.8946 | F1: 0.8946
+Tempo de Treinamento: 240.90 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 21: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.9009 | Precisão: 0.9011 | Recall: 0.9009 | F1: 0.9007
+Tempo de Treinamento: 240.58 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 22: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.8727 | Precisão: 0.8729 | Recall: 0.8727 | F1: 0.8724
+Tempo de Treinamento: 240.94 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 23: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9339 | Precisão: 0.9340 | Recall: 0.9339 | F1: 0.9339
+Tempo de Treinamento: 240.73 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 24: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.9113 | Precisão: 0.9114 | Recall: 0.9113 | F1: 0.9112
+Tempo de Treinamento: 241.32 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 25: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.8927 | Precisão: 0.8939 | Recall: 0.8927 | F1: 0.8928
+Tempo de Treinamento: 241.01 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 26: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.8918 | Precisão: 0.8924 | Recall: 0.8918 | F1: 0.8918
+Tempo de Treinamento: 241.18 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 27: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.9173 | Precisão: 0.9172 | Recall: 0.9173 | F1: 0.9172
+Tempo de Treinamento: 241.01 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 28: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.8979 | Precisão: 0.8986 | Recall: 0.8979 | F1: 0.8978
+Tempo de Treinamento: 240.59 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 29: 
+
+Modelo: a
+DP: False | LR: 0.01 | Batch: 100 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acurácia: 0.9878 | Precisão: 0.9878 | Recall: 0.9878 | F1: 0.9878
+Tempo de Treinamento: 50.51 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 30: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.8064 | Precisão: 0.8105 | Recall: 0.8064 | F1: 0.8011
+Tempo de Treinamento: 127.93 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 31: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.7757 | Precisão: 0.7781 | Recall: 0.7757 | F1: 0.7661
+Tempo de Treinamento: 127.95 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 32: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.8211 | Precisão: 0.8252 | Recall: 0.8211 | F1: 0.8162
+Tempo de Treinamento: 128.17 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 33: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.8149 | Precisão: 0.8143 | Recall: 0.8149 | F1: 0.8087
+Tempo de Treinamento: 128.23 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 34: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.7615 | Precisão: 0.7635 | Recall: 0.7615 | F1: 0.7501
+Tempo de Treinamento: 128.02 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 35: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.8304 | Precisão: 0.8321 | Recall: 0.8304 | F1: 0.8274
+Tempo de Treinamento: 128.27 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 36: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.8321 | Precisão: 0.8316 | Recall: 0.8321 | F1: 0.8309
+Tempo de Treinamento: 128.22 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 37: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.8807 | Precisão: 0.8809 | Recall: 0.8807 | F1: 0.8804
+Tempo de Treinamento: 127.91 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 38: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.8666 | Precisão: 0.8667 | Recall: 0.8666 | F1: 0.8660
+Tempo de Treinamento: 127.68 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 39: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.8371 | Precisão: 0.8371 | Recall: 0.8371 | F1: 0.8355
+Tempo de Treinamento: 128.14 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 40: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.8621 | Precisão: 0.8621 | Recall: 0.8621 | F1: 0.8614
+Tempo de Treinamento: 128.46 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 41: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.8676 | Precisão: 0.8677 | Recall: 0.8676 | F1: 0.8672
+Tempo de Treinamento: 128.10 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 42: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.8771 | Precisão: 0.8778 | Recall: 0.8771 | F1: 0.8770
+Tempo de Treinamento: 128.42 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 43: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.8612 | Precisão: 0.8609 | Recall: 0.8612 | F1: 0.8605
+Tempo de Treinamento: 128.51 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 44: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.8854 | Precisão: 0.8854 | Recall: 0.8854 | F1: 0.8850
+Tempo de Treinamento: 127.98 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 45: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.9123 | Precisão: 0.9126 | Recall: 0.9123 | F1: 0.9122
+Tempo de Treinamento: 127.83 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 46: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.8721 | Precisão: 0.8718 | Recall: 0.8721 | F1: 0.8715
+Tempo de Treinamento: 128.11 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 47: 
+
+Modelo: a
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.8939 | Precisão: 0.8942 | Recall: 0.8939 | F1: 0.8937
+Tempo de Treinamento: 128.11 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 48: 
+
+Modelo: a
+DP: False | LR: 0.005 | Batch: 25 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acurácia: 0.9899 | Precisão: 0.9899 | Recall: 0.9899 | F1: 0.9899
+Tempo de Treinamento: 157.50 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 49: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.8558 | Precisão: 0.8566 | Recall: 0.8558 | F1: 0.8550
+Tempo de Treinamento: 486.84 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 50: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.8150 | Precisão: 0.8136 | Recall: 0.8150 | F1: 0.8134
+Tempo de Treinamento: 477.23 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 51: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.8756 | Precisão: 0.8755 | Recall: 0.8756 | F1: 0.8751
+Tempo de Treinamento: 476.38 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 52: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9292 | Precisão: 0.9295 | Recall: 0.9292 | F1: 0.9292
+Tempo de Treinamento: 476.89 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 53: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.9023 | Precisão: 0.9028 | Recall: 0.9023 | F1: 0.9022
+Tempo de Treinamento: 477.47 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 54: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.9005 | Precisão: 0.9008 | Recall: 0.9005 | F1: 0.9003
+Tempo de Treinamento: 477.62 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 55: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9369 | Precisão: 0.9372 | Recall: 0.9369 | F1: 0.9369
+Tempo de Treinamento: 477.71 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 56: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.9046 | Precisão: 0.9054 | Recall: 0.9046 | F1: 0.9046
+Tempo de Treinamento: 477.62 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 57: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.9081 | Precisão: 0.9083 | Recall: 0.9081 | F1: 0.9079
+Tempo de Treinamento: 477.91 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 58: 
+
+Modelo: a
+DP: False | LR: 0.005 | Batch: 50 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acurácia: 0.9889 | Precisão: 0.9889 | Recall: 0.9889 | F1: 0.9889
+Tempo de Treinamento: 91.56 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 59: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.7887 | Precisão: 0.7966 | Recall: 0.7887 | F1: 0.7795
+Tempo de Treinamento: 241.40 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 60: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.8229 | Precisão: 0.8251 | Recall: 0.8229 | F1: 0.8170
+Tempo de Treinamento: 241.05 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 61: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.8178 | Precisão: 0.8220 | Recall: 0.8178 | F1: 0.8149
+Tempo de Treinamento: 241.05 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 62: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.7842 | Precisão: 0.7862 | Recall: 0.7842 | F1: 0.7769
+Tempo de Treinamento: 242.16 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 63: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.8210 | Precisão: 0.8219 | Recall: 0.8210 | F1: 0.8175
+Tempo de Treinamento: 241.79 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 64: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.7787 | Precisão: 0.7782 | Recall: 0.7787 | F1: 0.7714
+Tempo de Treinamento: 241.91 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 65: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.8967 | Precisão: 0.8967 | Recall: 0.8967 | F1: 0.8965
+Tempo de Treinamento: 242.26 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 66: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.8302 | Precisão: 0.8292 | Recall: 0.8302 | F1: 0.8290
+Tempo de Treinamento: 242.19 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 67: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.8172 | Precisão: 0.8161 | Recall: 0.8172 | F1: 0.8142
+Tempo de Treinamento: 242.28 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 68: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.8311 | Precisão: 0.8299 | Recall: 0.8311 | F1: 0.8299
+Tempo de Treinamento: 241.91 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 69: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.8170 | Precisão: 0.8165 | Recall: 0.8170 | F1: 0.8134
+Tempo de Treinamento: 242.40 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 70: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.8606 | Precisão: 0.8603 | Recall: 0.8606 | F1: 0.8601
+Tempo de Treinamento: 242.22 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 71: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9103 | Precisão: 0.9104 | Recall: 0.9103 | F1: 0.9103
+Tempo de Treinamento: 241.45 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 72: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.8919 | Precisão: 0.8927 | Recall: 0.8919 | F1: 0.8919
+Tempo de Treinamento: 242.14 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 73: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.8698 | Precisão: 0.8696 | Recall: 0.8698 | F1: 0.8693
+Tempo de Treinamento: 242.27 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 74: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.9050 | Precisão: 0.9053 | Recall: 0.9050 | F1: 0.9048
+Tempo de Treinamento: 241.99 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 75: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.8851 | Precisão: 0.8855 | Recall: 0.8851 | F1: 0.8848
+Tempo de Treinamento: 241.86 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 76: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.8914 | Precisão: 0.8919 | Recall: 0.8914 | F1: 0.8915
+Tempo de Treinamento: 242.17 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 77: 
+
+Modelo: a
+DP: False | LR: 0.005 | Batch: 100 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acurácia: 0.9847 | Precisão: 0.9848 | Recall: 0.9847 | F1: 0.9847
+Tempo de Treinamento: 50.51 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 78: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.7415 | Precisão: 0.7365 | Recall: 0.7415 | F1: 0.7278
+Tempo de Treinamento: 128.22 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 79: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.7148 | Precisão: 0.7158 | Recall: 0.7148 | F1: 0.7061
+Tempo de Treinamento: 128.44 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 80: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.7262 | Precisão: 0.7224 | Recall: 0.7262 | F1: 0.7110
+Tempo de Treinamento: 128.23 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 81: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.6885 | Precisão: 0.6787 | Recall: 0.6885 | F1: 0.6578
+Tempo de Treinamento: 128.53 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 82: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.6735 | Precisão: 0.6908 | Recall: 0.6735 | F1: 0.6401
+Tempo de Treinamento: 128.52 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 83: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.7215 | Precisão: 0.7291 | Recall: 0.7215 | F1: 0.7009
+Tempo de Treinamento: 128.24 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 84: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.7740 | Precisão: 0.7772 | Recall: 0.7740 | F1: 0.7650
+Tempo de Treinamento: 128.39 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 85: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.7662 | Precisão: 0.7713 | Recall: 0.7662 | F1: 0.7586
+Tempo de Treinamento: 128.31 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 86: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.7532 | Precisão: 0.7528 | Recall: 0.7532 | F1: 0.7443
+Tempo de Treinamento: 128.17 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 87: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.7986 | Precisão: 0.8000 | Recall: 0.7986 | F1: 0.7936
+Tempo de Treinamento: 128.21 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 88: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.7799 | Precisão: 0.7822 | Recall: 0.7799 | F1: 0.7685
+Tempo de Treinamento: 128.24 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 89: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.7706 | Precisão: 0.7681 | Recall: 0.7706 | F1: 0.7621
+Tempo de Treinamento: 128.07 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 90: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.8356 | Precisão: 0.8353 | Recall: 0.8356 | F1: 0.8334
+Tempo de Treinamento: 128.31 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 91: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.8685 | Precisão: 0.8682 | Recall: 0.8685 | F1: 0.8677
+Tempo de Treinamento: 128.97 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 92: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.8450 | Precisão: 0.8452 | Recall: 0.8450 | F1: 0.8440
+Tempo de Treinamento: 128.40 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 93: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.8468 | Precisão: 0.8457 | Recall: 0.8468 | F1: 0.8457
+Tempo de Treinamento: 128.26 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 94: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.8248 | Precisão: 0.8240 | Recall: 0.8248 | F1: 0.8229
+Tempo de Treinamento: 128.27 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 95: 
+
+Modelo: a
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.8391 | Precisão: 0.8386 | Recall: 0.8391 | F1: 0.8375
+Tempo de Treinamento: 128.45 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 96: 
+
+Modelo: a
+DP: False | LR: 0.001 | Batch: 25 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acurácia: 0.9821 | Precisão: 0.9822 | Recall: 0.9821 | F1: 0.9821
+Tempo de Treinamento: 159.17 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 97: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.6548 | Precisão: 0.6660 | Recall: 0.6548 | F1: 0.6314
+Tempo de Treinamento: 477.83 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 98: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.6641 | Precisão: 0.6753 | Recall: 0.6641 | F1: 0.6469
+Tempo de Treinamento: 478.51 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 99: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.6853 | Precisão: 0.7057 | Recall: 0.6853 | F1: 0.6648
+Tempo de Treinamento: 479.33 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 100: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.7692 | Precisão: 0.7704 | Recall: 0.7692 | F1: 0.7561
+Tempo de Treinamento: 479.47 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 101: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.8054 | Precisão: 0.8101 | Recall: 0.8054 | F1: 0.7998
+Tempo de Treinamento: 479.96 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 102: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.7515 | Precisão: 0.7593 | Recall: 0.7515 | F1: 0.7380
+Tempo de Treinamento: 479.13 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 103: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.8376 | Precisão: 0.8386 | Recall: 0.8376 | F1: 0.8359
+Tempo de Treinamento: 478.24 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 104: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.8243 | Precisão: 0.8235 | Recall: 0.8243 | F1: 0.8222
+Tempo de Treinamento: 479.22 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 105: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.7929 | Precisão: 0.7940 | Recall: 0.7929 | F1: 0.7876
+Tempo de Treinamento: 478.82 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 106: 
+
+Modelo: a
+DP: False | LR: 0.001 | Batch: 50 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acurácia: 0.9721 | Precisão: 0.9722 | Recall: 0.9721 | F1: 0.9721
+Tempo de Treinamento: 92.88 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 107: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.5941 | Precisão: 0.6446 | Recall: 0.5941 | F1: 0.5604
+Tempo de Treinamento: 241.70 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 108: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.5552 | Precisão: 0.5887 | Recall: 0.5552 | F1: 0.5290
+Tempo de Treinamento: 242.04 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 109: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.5608 | Precisão: 0.6285 | Recall: 0.5608 | F1: 0.5142
+Tempo de Treinamento: 241.70 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 110: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.5236 | Precisão: 0.5416 | Recall: 0.5236 | F1: 0.4772
+Tempo de Treinamento: 242.21 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 111: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.6262 | Precisão: 0.6389 | Recall: 0.6262 | F1: 0.5970
+Tempo de Treinamento: 242.32 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 112: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.5121 | Precisão: 0.6954 | Recall: 0.5121 | F1: 0.4389
+Tempo de Treinamento: 242.16 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 113: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.6752 | Precisão: 0.7047 | Recall: 0.6752 | F1: 0.6412
+Tempo de Treinamento: 242.33 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 114: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.6535 | Precisão: 0.7058 | Recall: 0.6535 | F1: 0.6026
+Tempo de Treinamento: 244.58 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 115: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.6738 | Precisão: 0.7038 | Recall: 0.6738 | F1: 0.6350
+Tempo de Treinamento: 241.57 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 116: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.6473 | Precisão: 0.6731 | Recall: 0.6473 | F1: 0.6074
+Tempo de Treinamento: 241.51 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 117: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.6876 | Precisão: 0.7032 | Recall: 0.6876 | F1: 0.6800
+Tempo de Treinamento: 241.40 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 118: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.6428 | Precisão: 0.6536 | Recall: 0.6428 | F1: 0.6173
+Tempo de Treinamento: 241.71 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 119: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.7387 | Precisão: 0.7355 | Recall: 0.7387 | F1: 0.7244
+Tempo de Treinamento: 241.89 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 120: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.7324 | Precisão: 0.7398 | Recall: 0.7324 | F1: 0.7144
+Tempo de Treinamento: 241.51 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 121: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.7715 | Precisão: 0.7785 | Recall: 0.7715 | F1: 0.7571
+Tempo de Treinamento: 242.15 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 122: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.6668 | Precisão: 0.6701 | Recall: 0.6668 | F1: 0.6403
+Tempo de Treinamento: 241.88 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 123: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.7352 | Precisão: 0.7393 | Recall: 0.7352 | F1: 0.7234
+Tempo de Treinamento: 241.51 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 124: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.7312 | Precisão: 0.7342 | Recall: 0.7312 | F1: 0.7133
+Tempo de Treinamento: 242.09 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 125: 
+
+Modelo: a
+DP: False | LR: 0.001 | Batch: 100 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acurácia: 0.9518 | Precisão: 0.9519 | Recall: 0.9518 | F1: 0.9518
+Tempo de Treinamento: 50.75 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 126: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.3501 | Precisão: 0.3899 | Recall: 0.3501 | F1: 0.2724
+Tempo de Treinamento: 128.45 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 127: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.2756 | Precisão: 0.1987 | Recall: 0.2756 | F1: 0.1799
+Tempo de Treinamento: 128.21 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 128: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.3222 | Precisão: 0.5069 | Recall: 0.3222 | F1: 0.2731
+Tempo de Treinamento: 128.58 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 129: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.2060 | Precisão: 0.2936 | Recall: 0.2060 | F1: 0.1450
+Tempo de Treinamento: 128.77 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 130: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.3239 | Precisão: 0.2592 | Recall: 0.3239 | F1: 0.2206
+Tempo de Treinamento: 128.48 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 131: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.2910 | Precisão: 0.3808 | Recall: 0.2910 | F1: 0.2035
+Tempo de Treinamento: 128.65 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 132: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.4442 | Precisão: 0.4779 | Recall: 0.4442 | F1: 0.3558
+Tempo de Treinamento: 128.80 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 133: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.4115 | Precisão: 0.4037 | Recall: 0.4115 | F1: 0.3084
+Tempo de Treinamento: 128.70 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 134: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.4570 | Precisão: 0.5211 | Recall: 0.4570 | F1: 0.3933
+Tempo de Treinamento: 128.58 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 135: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.6267 | Precisão: 0.6896 | Recall: 0.6267 | F1: 0.5959
+Tempo de Treinamento: 128.65 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 136: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.5298 | Precisão: 0.5566 | Recall: 0.5298 | F1: 0.4939
+Tempo de Treinamento: 128.22 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 137: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.4738 | Precisão: 0.4992 | Recall: 0.4738 | F1: 0.4167
+Tempo de Treinamento: 128.12 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 138: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.6386 | Precisão: 0.6525 | Recall: 0.6386 | F1: 0.5934
+Tempo de Treinamento: 127.90 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 139: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.6174 | Precisão: 0.6607 | Recall: 0.6174 | F1: 0.5551
+Tempo de Treinamento: 128.04 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 140: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.6394 | Precisão: 0.6906 | Recall: 0.6394 | F1: 0.5909
+Tempo de Treinamento: 128.41 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 141: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.6267 | Precisão: 0.6602 | Recall: 0.6267 | F1: 0.5967
+Tempo de Treinamento: 128.11 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 142: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.6315 | Precisão: 0.6826 | Recall: 0.6315 | F1: 0.5958
+Tempo de Treinamento: 128.13 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 143: 
+
+Modelo: a
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.6358 | Precisão: 0.6569 | Recall: 0.6358 | F1: 0.6035
+Tempo de Treinamento: 128.53 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 144: 
+
+Modelo: b
+DP: False | LR: 0.01 | Batch: 25 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acurácia: 0.9953 | Precisão: 0.9953 | Recall: 0.9953 | F1: 0.9953
+Tempo de Treinamento: 360.42 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 145: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9627 | Precisão: 0.9628 | Recall: 0.9627 | F1: 0.9627
+Tempo de Treinamento: 1407.01 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 146: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.9402 | Precisão: 0.9405 | Recall: 0.9402 | F1: 0.9399
+Tempo de Treinamento: 1409.20 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 147: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.9052 | Precisão: 0.9063 | Recall: 0.9052 | F1: 0.9043
+Tempo de Treinamento: 1404.54 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 148: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9613 | Precisão: 0.9614 | Recall: 0.9613 | F1: 0.9613
+Tempo de Treinamento: 1406.95 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 149: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.9359 | Precisão: 0.9364 | Recall: 0.9359 | F1: 0.9356
+Tempo de Treinamento: 1407.89 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 150: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.8924 | Precisão: 0.8947 | Recall: 0.8924 | F1: 0.8911
+Tempo de Treinamento: 1408.74 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 151: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9604 | Precisão: 0.9605 | Recall: 0.9604 | F1: 0.9604
+Tempo de Treinamento: 1412.33 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 152: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.9389 | Precisão: 0.9391 | Recall: 0.9389 | F1: 0.9387
+Tempo de Treinamento: 1410.39 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 153: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 25 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.9200 | Precisão: 0.9210 | Recall: 0.9200 | F1: 0.9192
+Tempo de Treinamento: 1413.50 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 154: 
+
+Modelo: b
+DP: False | LR: 0.01 | Batch: 50 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acurácia: 0.9953 | Precisão: 0.9953 | Recall: 0.9953 | F1: 0.9953
+Tempo de Treinamento: 182.45 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 155: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9463 | Precisão: 0.9466 | Recall: 0.9463 | F1: 0.9461
+Tempo de Treinamento: 711.14 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 156: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.9384 | Precisão: 0.9391 | Recall: 0.9384 | F1: 0.9381
+Tempo de Treinamento: 713.14 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 157: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.9338 | Precisão: 0.9345 | Recall: 0.9338 | F1: 0.9334
+Tempo de Treinamento: 709.95 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 158: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.9451 | Precisão: 0.9455 | Recall: 0.9451 | F1: 0.9449
+Tempo de Treinamento: 711.55 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 159: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.8804 | Precisão: 0.8842 | Recall: 0.8804 | F1: 0.8755
+Tempo de Treinamento: 711.70 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 160: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.9279 | Precisão: 0.9293 | Recall: 0.9279 | F1: 0.9274
+Tempo de Treinamento: 711.74 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 161: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9625 | Precisão: 0.9625 | Recall: 0.9625 | F1: 0.9624
+Tempo de Treinamento: 712.17 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 162: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.9617 | Precisão: 0.9617 | Recall: 0.9617 | F1: 0.9616
+Tempo de Treinamento: 712.95 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 163: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.9387 | Precisão: 0.9390 | Recall: 0.9387 | F1: 0.9386
+Tempo de Treinamento: 711.68 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 164: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.9491 | Precisão: 0.9492 | Recall: 0.9491 | F1: 0.9490
+Tempo de Treinamento: 713.15 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 165: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.9386 | Precisão: 0.9392 | Recall: 0.9386 | F1: 0.9381
+Tempo de Treinamento: 712.47 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 166: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.9370 | Precisão: 0.9376 | Recall: 0.9370 | F1: 0.9368
+Tempo de Treinamento: 714.32 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 167: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9659 | Precisão: 0.9661 | Recall: 0.9659 | F1: 0.9659
+Tempo de Treinamento: 712.09 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 168: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.9667 | Precisão: 0.9668 | Recall: 0.9667 | F1: 0.9667
+Tempo de Treinamento: 711.88 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 169: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.9507 | Precisão: 0.9508 | Recall: 0.9507 | F1: 0.9506
+Tempo de Treinamento: 710.92 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 170: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.9455 | Precisão: 0.9456 | Recall: 0.9455 | F1: 0.9453
+Tempo de Treinamento: 711.66 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 171: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.9398 | Precisão: 0.9401 | Recall: 0.9398 | F1: 0.9397
+Tempo de Treinamento: 712.65 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 172: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.9395 | Precisão: 0.9400 | Recall: 0.9395 | F1: 0.9393
+Tempo de Treinamento: 711.49 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 173: 
+
+Modelo: b
+DP: False | LR: 0.01 | Batch: 100 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acurácia: 0.9950 | Precisão: 0.9950 | Recall: 0.9950 | F1: 0.9950
+Tempo de Treinamento: 97.52 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 174: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.8902 | Precisão: 0.8960 | Recall: 0.8902 | F1: 0.8882
+Tempo de Treinamento: 360.35 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 175: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.8797 | Precisão: 0.8875 | Recall: 0.8797 | F1: 0.8751
+Tempo de Treinamento: 359.64 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 176: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.8830 | Precisão: 0.8910 | Recall: 0.8830 | F1: 0.8796
+Tempo de Treinamento: 359.88 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 177: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.8875 | Precisão: 0.8924 | Recall: 0.8875 | F1: 0.8849
+Tempo de Treinamento: 359.11 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 178: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.8662 | Precisão: 0.8745 | Recall: 0.8662 | F1: 0.8630
+Tempo de Treinamento: 358.95 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 179: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.8694 | Precisão: 0.8796 | Recall: 0.8694 | F1: 0.8653
+Tempo de Treinamento: 360.25 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 180: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9514 | Precisão: 0.9515 | Recall: 0.9514 | F1: 0.9513
+Tempo de Treinamento: 359.05 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 181: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.9433 | Precisão: 0.9440 | Recall: 0.9433 | F1: 0.9430
+Tempo de Treinamento: 359.81 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 182: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.9499 | Precisão: 0.9502 | Recall: 0.9499 | F1: 0.9497
+Tempo de Treinamento: 358.99 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 183: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.9386 | Precisão: 0.9389 | Recall: 0.9386 | F1: 0.9383
+Tempo de Treinamento: 359.22 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 184: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.9407 | Precisão: 0.9409 | Recall: 0.9407 | F1: 0.9405
+Tempo de Treinamento: 359.55 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 185: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.9459 | Precisão: 0.9461 | Recall: 0.9459 | F1: 0.9458
+Tempo de Treinamento: 359.12 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 186: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9614 | Precisão: 0.9614 | Recall: 0.9614 | F1: 0.9614
+Tempo de Treinamento: 359.96 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 187: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.9635 | Precisão: 0.9636 | Recall: 0.9635 | F1: 0.9635
+Tempo de Treinamento: 360.10 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 188: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.9512 | Precisão: 0.9512 | Recall: 0.9512 | F1: 0.9511
+Tempo de Treinamento: 359.66 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 189: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.9550 | Precisão: 0.9552 | Recall: 0.9550 | F1: 0.9550
+Tempo de Treinamento: 360.47 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 190: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.9424 | Precisão: 0.9427 | Recall: 0.9424 | F1: 0.9423
+Tempo de Treinamento: 360.32 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 191: 
+
+Modelo: b
+DP: True | LR: 0.01 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.9487 | Precisão: 0.9489 | Recall: 0.9487 | F1: 0.9485
+Tempo de Treinamento: 360.30 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 192: 
+
+Modelo: b
+DP: False | LR: 0.005 | Batch: 25 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acurácia: 0.9953 | Precisão: 0.9953 | Recall: 0.9953 | F1: 0.9953
+Tempo de Treinamento: 357.88 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 193: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9459 | Precisão: 0.9463 | Recall: 0.9459 | F1: 0.9457
+Tempo de Treinamento: 1409.43 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 194: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.9253 | Precisão: 0.9264 | Recall: 0.9253 | F1: 0.9244
+Tempo de Treinamento: 1409.13 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 195: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.8893 | Precisão: 0.8920 | Recall: 0.8893 | F1: 0.8879
+Tempo de Treinamento: 1409.12 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 196: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9619 | Precisão: 0.9621 | Recall: 0.9619 | F1: 0.9619
+Tempo de Treinamento: 1408.77 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 197: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.9349 | Precisão: 0.9354 | Recall: 0.9349 | F1: 0.9346
+Tempo de Treinamento: 1398.15 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 198: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.9083 | Precisão: 0.9096 | Recall: 0.9083 | F1: 0.9073
+Tempo de Treinamento: 1448.47 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 199: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9594 | Precisão: 0.9596 | Recall: 0.9594 | F1: 0.9594
+Tempo de Treinamento: 1544.18 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 200: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.9323 | Precisão: 0.9331 | Recall: 0.9323 | F1: 0.9320
+Tempo de Treinamento: 1562.89 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 201: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 25 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.8919 | Precisão: 0.8923 | Recall: 0.8919 | F1: 0.8910
+Tempo de Treinamento: 1591.26 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 202: 
+
+Modelo: b
+DP: False | LR: 0.005 | Batch: 50 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acurácia: 0.9954 | Precisão: 0.9954 | Recall: 0.9954 | F1: 0.9954
+Tempo de Treinamento: 193.01 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 203: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.8638 | Precisão: 0.8750 | Recall: 0.8638 | F1: 0.8590
+Tempo de Treinamento: 858.37 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 204: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.8628 | Precisão: 0.8733 | Recall: 0.8628 | F1: 0.8557
+Tempo de Treinamento: 857.59 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 205: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.8830 | Precisão: 0.8915 | Recall: 0.8830 | F1: 0.8797
+Tempo de Treinamento: 853.46 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 206: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.8746 | Precisão: 0.8867 | Recall: 0.8746 | F1: 0.8715
+Tempo de Treinamento: 749.33 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 207: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.8786 | Precisão: 0.8856 | Recall: 0.8786 | F1: 0.8753
+Tempo de Treinamento: 714.69 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 208: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.8644 | Precisão: 0.8730 | Recall: 0.8644 | F1: 0.8589
+Tempo de Treinamento: 715.24 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 209: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9483 | Precisão: 0.9484 | Recall: 0.9483 | F1: 0.9482
+Tempo de Treinamento: 715.85 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 210: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.9459 | Precisão: 0.9463 | Recall: 0.9459 | F1: 0.9456
+Tempo de Treinamento: 715.11 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 211: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.9453 | Precisão: 0.9455 | Recall: 0.9453 | F1: 0.9452
+Tempo de Treinamento: 713.52 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 212: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.9163 | Precisão: 0.9176 | Recall: 0.9163 | F1: 0.9155
+Tempo de Treinamento: 715.02 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 213: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.9181 | Precisão: 0.9190 | Recall: 0.9181 | F1: 0.9174
+Tempo de Treinamento: 714.81 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 214: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.9229 | Precisão: 0.9243 | Recall: 0.9229 | F1: 0.9218
+Tempo de Treinamento: 714.15 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 215: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9598 | Precisão: 0.9598 | Recall: 0.9598 | F1: 0.9598
+Tempo de Treinamento: 714.21 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 216: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.9558 | Precisão: 0.9560 | Recall: 0.9558 | F1: 0.9558
+Tempo de Treinamento: 713.26 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 217: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.9520 | Precisão: 0.9523 | Recall: 0.9520 | F1: 0.9518
+Tempo de Treinamento: 715.20 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 218: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.9399 | Precisão: 0.9401 | Recall: 0.9399 | F1: 0.9397
+Tempo de Treinamento: 715.54 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 219: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.9311 | Precisão: 0.9316 | Recall: 0.9311 | F1: 0.9306
+Tempo de Treinamento: 715.33 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 220: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.9377 | Precisão: 0.9382 | Recall: 0.9377 | F1: 0.9373
+Tempo de Treinamento: 713.69 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 221: 
+
+Modelo: b
+DP: False | LR: 0.005 | Batch: 100 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acurácia: 0.9946 | Precisão: 0.9946 | Recall: 0.9946 | F1: 0.9946
+Tempo de Treinamento: 99.48 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 222: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.7752 | Precisão: 0.7961 | Recall: 0.7752 | F1: 0.7576
+Tempo de Treinamento: 361.86 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 223: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.7932 | Precisão: 0.8122 | Recall: 0.7932 | F1: 0.7819
+Tempo de Treinamento: 362.21 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 224: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.7564 | Precisão: 0.7822 | Recall: 0.7564 | F1: 0.7327
+Tempo de Treinamento: 361.91 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 225: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.8068 | Precisão: 0.8246 | Recall: 0.8068 | F1: 0.7977
+Tempo de Treinamento: 362.95 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 226: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.7766 | Precisão: 0.8066 | Recall: 0.7766 | F1: 0.7588
+Tempo de Treinamento: 362.61 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 227: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.7890 | Precisão: 0.8132 | Recall: 0.7890 | F1: 0.7697
+Tempo de Treinamento: 362.22 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 228: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.8727 | Precisão: 0.8801 | Recall: 0.8727 | F1: 0.8692
+Tempo de Treinamento: 362.54 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 229: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.8970 | Precisão: 0.9031 | Recall: 0.8970 | F1: 0.8947
+Tempo de Treinamento: 361.56 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 230: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.8632 | Precisão: 0.8707 | Recall: 0.8632 | F1: 0.8579
+Tempo de Treinamento: 362.70 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 231: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.8686 | Precisão: 0.8773 | Recall: 0.8686 | F1: 0.8646
+Tempo de Treinamento: 362.46 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 232: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.8865 | Precisão: 0.8922 | Recall: 0.8865 | F1: 0.8835
+Tempo de Treinamento: 362.32 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 233: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.8859 | Precisão: 0.8902 | Recall: 0.8859 | F1: 0.8828
+Tempo de Treinamento: 362.70 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 234: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9296 | Precisão: 0.9301 | Recall: 0.9296 | F1: 0.9292
+Tempo de Treinamento: 362.19 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 235: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.9353 | Precisão: 0.9360 | Recall: 0.9353 | F1: 0.9350
+Tempo de Treinamento: 361.82 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 236: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.9381 | Precisão: 0.9385 | Recall: 0.9381 | F1: 0.9378
+Tempo de Treinamento: 362.15 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 237: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.9346 | Precisão: 0.9351 | Recall: 0.9346 | F1: 0.9343
+Tempo de Treinamento: 362.36 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 238: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.9138 | Precisão: 0.9150 | Recall: 0.9138 | F1: 0.9131
+Tempo de Treinamento: 362.84 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 239: 
+
+Modelo: b
+DP: True | LR: 0.005 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.9169 | Precisão: 0.9181 | Recall: 0.9169 | F1: 0.9159
+Tempo de Treinamento: 362.62 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 240: 
+
+Modelo: b
+DP: False | LR: 0.001 | Batch: 25 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acurácia: 0.9930 | Precisão: 0.9930 | Recall: 0.9930 | F1: 0.9930
+Tempo de Treinamento: 360.39 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 241: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.7580 | Precisão: 0.7859 | Recall: 0.7580 | F1: 0.7352
+Tempo de Treinamento: 1426.81 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 242: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.7502 | Precisão: 0.7697 | Recall: 0.7502 | F1: 0.7273
+Tempo de Treinamento: 1414.67 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 243: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.7637 | Precisão: 0.7779 | Recall: 0.7637 | F1: 0.7499
+Tempo de Treinamento: 1415.28 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 244: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.8356 | Precisão: 0.8489 | Recall: 0.8356 | F1: 0.8282
+Tempo de Treinamento: 1416.08 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 245: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.8594 | Precisão: 0.8671 | Recall: 0.8594 | F1: 0.8551
+Tempo de Treinamento: 1420.82 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 246: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.8081 | Precisão: 0.8268 | Recall: 0.8081 | F1: 0.7965
+Tempo de Treinamento: 1421.32 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 247: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.9115 | Precisão: 0.9134 | Recall: 0.9115 | F1: 0.9105
+Tempo de Treinamento: 1417.88 seg
+Privacidade: Epsilon: 5.06
+
+------------------------------------------------------------------
+Teste 248: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.9119 | Precisão: 0.9142 | Recall: 0.9119 | F1: 0.9106
+Tempo de Treinamento: 1418.53 seg
+Privacidade: Epsilon: 0.53
+
+------------------------------------------------------------------
+Teste 249: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 25 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.8535 | Precisão: 0.8623 | Recall: 0.8535 | F1: 0.8475
+Tempo de Treinamento: 1418.90 seg
+Privacidade: Epsilon: 0.29
+
+------------------------------------------------------------------
+Teste 250: 
+
+Modelo: b
+DP: False | LR: 0.001 | Batch: 50 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acurácia: 0.9923 | Precisão: 0.9923 | Recall: 0.9923 | F1: 0.9923
+Tempo de Treinamento: 179.81 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 251: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.7015 | Precisão: 0.7561 | Recall: 0.7015 | F1: 0.6771
+Tempo de Treinamento: 715.87 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 252: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.6660 | Precisão: 0.7397 | Recall: 0.6660 | F1: 0.6381
+Tempo de Treinamento: 714.84 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 253: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.6874 | Precisão: 0.7357 | Recall: 0.6874 | F1: 0.6553
+Tempo de Treinamento: 714.97 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 254: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.6329 | Precisão: 0.7235 | Recall: 0.6329 | F1: 0.6078
+Tempo de Treinamento: 717.77 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 255: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.6633 | Precisão: 0.7191 | Recall: 0.6633 | F1: 0.6359
+Tempo de Treinamento: 715.78 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 256: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.7233 | Precisão: 0.7638 | Recall: 0.7233 | F1: 0.6980
+Tempo de Treinamento: 715.79 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 257: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.7674 | Precisão: 0.7937 | Recall: 0.7674 | F1: 0.7493
+Tempo de Treinamento: 714.85 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 258: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.7688 | Precisão: 0.7871 | Recall: 0.7688 | F1: 0.7544
+Tempo de Treinamento: 717.31 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 259: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.7776 | Precisão: 0.7909 | Recall: 0.7776 | F1: 0.7637
+Tempo de Treinamento: 715.96 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 260: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.7440 | Precisão: 0.7761 | Recall: 0.7440 | F1: 0.7287
+Tempo de Treinamento: 714.86 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 261: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.7371 | Precisão: 0.7748 | Recall: 0.7371 | F1: 0.7117
+Tempo de Treinamento: 713.76 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 262: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.7244 | Precisão: 0.7666 | Recall: 0.7244 | F1: 0.6884
+Tempo de Treinamento: 714.17 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 263: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.8248 | Precisão: 0.8434 | Recall: 0.8248 | F1: 0.8149
+Tempo de Treinamento: 714.33 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 264: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.8224 | Precisão: 0.8327 | Recall: 0.8224 | F1: 0.8143
+Tempo de Treinamento: 715.38 seg
+Privacidade: Epsilon: 6.95
+
+------------------------------------------------------------------
+Teste 265: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.8170 | Precisão: 0.8317 | Recall: 0.8170 | F1: 0.8058
+Tempo de Treinamento: 714.45 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 266: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.7836 | Precisão: 0.8128 | Recall: 0.7836 | F1: 0.7641
+Tempo de Treinamento: 714.07 seg
+Privacidade: Epsilon: 0.78
+
+------------------------------------------------------------------
+Teste 267: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.8142 | Precisão: 0.8312 | Recall: 0.8142 | F1: 0.8066
+Tempo de Treinamento: 714.86 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 268: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 50 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.7967 | Precisão: 0.8196 | Recall: 0.7967 | F1: 0.7852
+Tempo de Treinamento: 714.43 seg
+Privacidade: Epsilon: 0.42
+
+------------------------------------------------------------------
+Teste 269: 
+
+Modelo: b
+DP: False | LR: 0.001 | Batch: 100 | L2 Clip: N/A | Noise: N/A | Microbatches: N/A
+Acurácia: 0.9876 | Precisão: 0.9876 | Recall: 0.9876 | F1: 0.9876
+Tempo de Treinamento: 97.30 seg
+Privacidade: Sem privacidade diferencial
+
+------------------------------------------------------------------
+Teste 270: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.5666 | Precisão: 0.6209 | Recall: 0.5666 | F1: 0.5356
+Tempo de Treinamento: 363.07 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 271: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 0.5 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.5737 | Precisão: 0.6557 | Recall: 0.5737 | F1: 0.5410
+Tempo de Treinamento: 361.85 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 272: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.6180 | Precisão: 0.6822 | Recall: 0.6180 | F1: 0.5901
+Tempo de Treinamento: 363.23 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 273: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.6153 | Precisão: 0.6338 | Recall: 0.6153 | F1: 0.5914
+Tempo de Treinamento: 362.63 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 274: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.5278 | Precisão: 0.5759 | Recall: 0.5278 | F1: 0.4762
+Tempo de Treinamento: 362.01 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 275: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 0.5 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.5677 | Precisão: 0.6506 | Recall: 0.5677 | F1: 0.5383
+Tempo de Treinamento: 361.69 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 276: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.6626 | Precisão: 0.7370 | Recall: 0.6626 | F1: 0.6235
+Tempo de Treinamento: 362.36 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 277: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.0 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.6373 | Precisão: 0.7338 | Recall: 0.6373 | F1: 0.6222
+Tempo de Treinamento: 362.89 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 278: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.6102 | Precisão: 0.6803 | Recall: 0.6102 | F1: 0.5633
+Tempo de Treinamento: 362.76 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 279: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.6298 | Precisão: 0.7078 | Recall: 0.6298 | F1: 0.5808
+Tempo de Treinamento: 362.95 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 280: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.6819 | Precisão: 0.7359 | Recall: 0.6819 | F1: 0.6491
+Tempo de Treinamento: 362.31 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 281: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.0 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.7049 | Precisão: 0.7519 | Recall: 0.7049 | F1: 0.6959
+Tempo de Treinamento: 361.72 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 282: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 5
+Acurácia: 0.7212 | Precisão: 0.7738 | Recall: 0.7212 | F1: 0.6970
+Tempo de Treinamento: 363.23 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 283: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.5 | Noise: 0.5 | Microbatches: 10
+Acurácia: 0.7091 | Precisão: 0.7721 | Recall: 0.7091 | F1: 0.6868
+Tempo de Treinamento: 363.25 seg
+Privacidade: Epsilon: 9.62
+
+------------------------------------------------------------------
+Teste 284: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 5
+Acurácia: 0.7279 | Precisão: 0.7648 | Recall: 0.7279 | F1: 0.7090
+Tempo de Treinamento: 363.09 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 285: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.0 | Microbatches: 10
+Acurácia: 0.7161 | Precisão: 0.7472 | Recall: 0.7161 | F1: 0.6948
+Tempo de Treinamento: 362.57 seg
+Privacidade: Epsilon: 1.15
+
+------------------------------------------------------------------
+Teste 286: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 5
+Acurácia: 0.7141 | Precisão: 0.7560 | Recall: 0.7141 | F1: 0.6806
+Tempo de Treinamento: 361.80 seg
+Privacidade: Epsilon: 0.61
+
+------------------------------------------------------------------
+Teste 287: 
+
+Modelo: b
+DP: True | LR: 0.001 | Batch: 100 | L2 Clip: 1.5 | Noise: 1.5 | Microbatches: 10
+Acurácia: 0.7596 | Precisão: 0.7834 | Recall: 0.7596 | F1: 0.7444
+Tempo de Treinamento: 361.76 seg
+Privacidade: Epsilon: 0.61
+

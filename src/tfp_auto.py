@@ -174,6 +174,7 @@ for model, lr, batch_size, l2_norm_clip, noise_multiplier in itertools.product(
             with open(file_path, "a") as f:
                 f.write(f"---------------------------------------------------------------------------------------------------------------------------------- \n")
                 f.write(f"Teste {test_number}: \n\n")
+                f.write(f"Modelo: {model}: \n")
                 f.write(f"DP: {dp} | LR: {lr} | Batch: {batch_size} | L2 Clip: {l2_norm_clip} | Noise: {noise_multiplier} | Microbatches: {num_microbatches}\n")
                 f.write(f"Acurácia: {accuracy:.4f} | Precisão: {precision:.4f} | Recall: {recall:.4f} | F1: {f1:.4f} \n")
                 f.write(f"Tempo de Treinamento: {end_time - start_time:.2f} seg\n")
